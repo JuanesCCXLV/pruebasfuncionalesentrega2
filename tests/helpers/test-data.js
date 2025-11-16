@@ -5,7 +5,8 @@ const validData = {
     country: 'España',
     town: 'Madrid',
     zip: '28001',
-    address: 'Calle Prueba 123'
+    address: 'Calle Prueba 123',
+    location: 'Ubicación A'
   },
   product: {
     ref: 'PROD-TEST-001',
@@ -39,7 +40,22 @@ const invalidData = {
   }
 };
 
-module.exports = {
-  validData,
-  invalidData
-};
+
+async function login(page, username = 'admin', password = 'admin') {
+  await page.goto('/');
+  await page.fill('input[name="username"]', username);
+  await page.fill('input[name="password"]', password);
+  await page.click('input[type="submit"]');
+  await page.waitForLoadState('networkidle');
+}
+
+async function loginAsUser(page, username, password) {
+  // Primero hacer logout si hay sesión activa
+  await page.goto('/user/logout.php');
+  await page.waitForLoadState('networkidle');
+  
+  // Hacer login con el nuevo usuario
+  await login(page, username, password);
+}
+
+module.exports = { login, loginAsUser, validData, invalidData };
