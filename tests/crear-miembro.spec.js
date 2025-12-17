@@ -29,7 +29,7 @@ test.describe('RF-M: Funcionalidad de Crear Miembro', () => {
   test('CP-MI-01: Crear miembro individual con datos válidos', async () => {
     // Clase: PE-NAT1 (Individual), PE-NOM1 (Nombre válido), PE-APE1 (Apellidos válidos)
     const data = {
-      tipo: 'Activo', // Ajustar según tipos disponibles en tu sistema
+      tipo: 'Administrador', // Ajustar según tipos disponibles en tu sistema
       nombre: 'Juan',
       apellidos: 'Pérez García'
     };
@@ -43,7 +43,7 @@ test.describe('RF-M: Funcionalidad de Crear Miembro', () => {
   test('CP-MI-02: Error al crear miembro individual con nombre vacío', async () => {
     // Clase: PE-NOM2 (Nombre vacío)
     const data = {
-      tipo: 'Activo',
+      tipo: 'Administrador',
       nombre: '', // Campo vacío
       apellidos: 'Pérez García'
     };
@@ -60,7 +60,7 @@ test.describe('RF-M: Funcionalidad de Crear Miembro', () => {
   test('CP-MI-03: Error al crear miembro individual con apellidos vacíos', async () => {
     // Clase: PE-APE2 (Apellidos vacíos)
     const data = {
-      tipo: 'Activo',
+      tipo: 'Administrador',
       nombre: 'Juan',
       apellidos: '' // Campo vacío
     };
@@ -78,7 +78,7 @@ test.describe('RF-M: Funcionalidad de Crear Miembro', () => {
   test('CP-MC-01: Crear miembro corporativo con datos válidos', async () => {
     // Clase: PE-NAT2 (Corporación), PE-EMP1 (Empresa válida)
     const data = {
-      tipo: 'Activo',
+      tipo: 'Administrador',
       empresa: 'Tech Solutions S.A.S.'
     };
 
@@ -91,7 +91,7 @@ test.describe('RF-M: Funcionalidad de Crear Miembro', () => {
   test('CP-MC-02: Error al crear miembro corporativo con empresa vacía', async () => {
     // Clase: PE-EMP2 (Empresa vacía)
     const data = {
-      tipo: 'Activo',
+      tipo: 'Administrador',
       empresa: '' // Campo vacío
     };
 
@@ -132,7 +132,7 @@ test.describe('RF-M: Funcionalidad de Crear Miembro', () => {
   test('Flujo completo: Crear múltiples tipos de miembros', async () => {
     // Crear miembro individual
     const dataIndividual = {
-      tipo: 'Activo',
+      tipo: 'Administrador',
       nombre: 'María',
       apellidos: 'González López'
     };
@@ -144,7 +144,7 @@ test.describe('RF-M: Funcionalidad de Crear Miembro', () => {
 
     // Crear miembro corporativo
     const dataCorporacion = {
-      tipo: 'Activo',
+      tipo: 'Administrador',
       empresa: 'Innovación Digital Ltda.'
     };
     await miembroPage.crearMiembroCorporacion(dataCorporacion);

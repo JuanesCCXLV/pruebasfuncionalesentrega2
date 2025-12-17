@@ -12,7 +12,7 @@ test.describe('RF-T: Funcionalidad de Crear Tercero', () => {
     loginPage = new LoginPage(page);
     await loginPage.goto();
     await loginPage.login(process.env.ADMIN_USER, process.env.ADMIN_PASSWORD);
-    
+
     // Navegar a crear tercero
     terceroPage = new TerceroPage(page);
     await terceroPage.goto();
@@ -29,14 +29,14 @@ test.describe('RF-T: Funcionalidad de Crear Tercero', () => {
   test('CP-T01: Crear tercero con nombre válido, cliente potencial y proveedor Sí', async () => {
     // Clase: PE-TN1 (Nombre válido), PE-TC1 (Cliente potencial), PE-PR1 (Proveedor Sí)
     const data = {
-      nombre: 'Empresa Ejemplo S.A.',
+      nombre: `Empresa Ejemplo ${Date.now()}`,
       tipoCliente: 'Cliente potencial',
       proveedor: true
     };
 
     await terceroPage.crearTercero(data);
-    
-    const terceroCreado = await terceroPage.terceroCreado();
+
+    const terceroCreado = await terceroPage.terceroCreado(data.nombre);
     expect(terceroCreado).toBeTruthy();
   });
 
@@ -49,7 +49,7 @@ test.describe('RF-T: Funcionalidad de Crear Tercero', () => {
     };
 
     await terceroPage.crearTercero(data);
-    
+
     const hasError = await terceroPage.hasValidationError();
     expect(hasError).toBeTruthy();
   });
@@ -67,7 +67,7 @@ test.describe('RF-T: Funcionalidad de Crear Tercero', () => {
     };
 
     await terceroPage.crearTercero(data);
-    
+
     const hasError = await terceroPage.hasValidationError();
     expect(hasError).toBeTruthy();
   });
@@ -81,8 +81,8 @@ test.describe('RF-T: Funcionalidad de Crear Tercero', () => {
     };
 
     await terceroPage.crearTercero(data);
-    
-    const terceroCreado = await terceroPage.terceroCreado();
+
+    const terceroCreado = await terceroPage.terceroCreado(data.nombre);
     expect(terceroCreado).toBeTruthy();
   });
 
@@ -95,8 +95,8 @@ test.describe('RF-T: Funcionalidad de Crear Tercero', () => {
     };
 
     await terceroPage.crearTercero(data);
-    
-    const terceroCreado = await terceroPage.terceroCreado();
+
+    const terceroCreado = await terceroPage.terceroCreado(data.nombre);
     expect(terceroCreado).toBeTruthy();
   });
 
@@ -109,9 +109,10 @@ test.describe('RF-T: Funcionalidad de Crear Tercero', () => {
     };
 
     await terceroPage.crearTercero(data);
-    
+
     // Debería ser rechazado o truncado
     const hasError = await terceroPage.hasValidationError();
+    expect(hasError).toBeTruthy();
     // Verificar según comportamiento real del sistema
   });
 
@@ -128,8 +129,8 @@ test.describe('RF-T: Funcionalidad de Crear Tercero', () => {
     };
 
     await terceroPage.crearTercero(data);
-    
-    const terceroCreado = await terceroPage.terceroCreado();
+
+    const terceroCreado = await terceroPage.terceroCreado(data.nombre);
     expect(terceroCreado).toBeTruthy();
   });
 
@@ -142,8 +143,8 @@ test.describe('RF-T: Funcionalidad de Crear Tercero', () => {
     };
 
     await terceroPage.crearTercero(data);
-    
-    const terceroCreado = await terceroPage.terceroCreado();
+
+    const terceroCreado = await terceroPage.terceroCreado(data.nombre);
     expect(terceroCreado).toBeTruthy();
   });
 
@@ -156,8 +157,8 @@ test.describe('RF-T: Funcionalidad de Crear Tercero', () => {
     };
 
     await terceroPage.crearTercero(data);
-    
-    const terceroCreado = await terceroPage.terceroCreado();
+
+    const terceroCreado = await terceroPage.terceroCreado(data.nombre);
     expect(terceroCreado).toBeTruthy();
   });
 
@@ -174,8 +175,8 @@ test.describe('RF-T: Funcionalidad de Crear Tercero', () => {
     };
 
     await terceroPage.crearTercero(data);
-    
-    const terceroCreado = await terceroPage.terceroCreado();
+
+    const terceroCreado = await terceroPage.terceroCreado(data.nombre);
     expect(terceroCreado).toBeTruthy();
   });
 
@@ -205,8 +206,8 @@ test.describe('RF-T: Funcionalidad de Crear Tercero', () => {
     for (const config of configuraciones) {
       await terceroPage.goto();
       await terceroPage.crearTercero(config);
-      
-      const terceroCreado = await terceroPage.terceroCreado();
+
+      const terceroCreado = await terceroPage.terceroCreado(config.nombre);
       expect(terceroCreado).toBeTruthy();
     }
   });
