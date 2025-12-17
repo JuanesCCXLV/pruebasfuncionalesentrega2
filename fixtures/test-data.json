@@ -1,0 +1,95 @@
+{
+  "miembros": {
+    "individual_valido": {
+      "tipo": "Activo",
+      "naturaleza": "Individual",
+      "nombre": "Juan",
+      "apellidos": "Pérez García",
+      "email": "juan.perez@example.com"
+    },
+    "corporativo_valido": {
+      "tipo": "Activo",
+      "naturaleza": "Corporación",
+      "empresa": "Tech Solutions S.A.S.",
+      "email": "contacto@techsolutions.com"
+    }
+  },
+  "terceros": {
+    "cliente_potencial": {
+      "nombre": "Empresa ABC S.A.",
+      "tipoCliente": "Cliente potencial",
+      "proveedor": true
+    },
+    "cliente_regular": {
+      "nombre": "Distribuidora XYZ",
+      "tipoCliente": "Cliente",
+      "proveedor": false
+    },
+    "proveedor_solo": {
+      "nombre": "Proveedor Principal",
+      "tipoCliente": "Ni cliente ni cliente potencial",
+      "proveedor": true
+    }
+  },
+  "tipos_miembro": {
+    "configuracion_basica": {
+      "estado": "Activo",
+      "naturaleza": "Individual",
+      "sujetoCotizacion": true,
+      "calcularImporte": false,
+      "importe": 50000,
+      "duracionTipo": "year",
+      "duracionValor": 1,
+      "votoAutorizado": true
+    },
+    "corporativo_sin_cotizacion": {
+      "estado": "Activo",
+      "naturaleza": "Corporación",
+      "sujetoCotizacion": false,
+      "votoAutorizado": false
+    },
+    "con_calculo_automatico": {
+      "estado": "Activo",
+      "naturaleza": "Ambos",
+      "sujetoCotizacion": true,
+      "calcularImporte": true,
+      "duracionTipo": "month",
+      "duracionValor": 12,
+      "votoAutorizado": true
+    },
+    "cerrado": {
+      "estado": "Cerrado",
+      "naturaleza": "Individual",
+      "sujetoCotizacion": false
+    }
+  },
+  "validaciones": {
+    "usuario": {
+      "longitud_minima": 5,
+      "longitud_maxima": 50
+    },
+    "password": {
+      "longitud_minima": 8,
+      "longitud_maxima": 20
+    },
+    "nombre_tercero": {
+      "longitud_minima": 3,
+      "longitud_maxima": 50
+    }
+  },
+  "mensajes_error": {
+    "login": {
+      "credenciales_invalidas": "Bad value for login or password",
+      "campo_requerido": "Required field",
+      "usuario_inactivo": "User disabled"
+    },
+    "miembro": {
+      "nombre_requerido": "Field required",
+      "apellidos_requeridos": "Field required",
+      "empresa_requerida": "Field required"
+    },
+    "tercero": {
+      "nombre_requerido": "Field 'Name' is mandatory"
+    }
+  }
+}

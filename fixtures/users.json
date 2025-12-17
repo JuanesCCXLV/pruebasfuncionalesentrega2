@@ -1,0 +1,256 @@
+{
+  "descripcion": "Usuarios de prueba para diferentes escenarios de testing",
+  "usuarios": {
+    "admin": {
+      "id": "admin",
+      "username": "admin",
+      "password": "admin",
+      "email": "admin@dolibarr.local",
+      "rol": "SuperAdministrador",
+      "estado": "activo",
+      "permisos": ["all"],
+      "descripcion": "Usuario administrador principal",
+      "casos_prueba": ["CP-L01", "CP-L09", "CP-L10", "CP-L11", "CP-L12", "CP-L15", "CP-L16", "CP-L17", "CP-L18"]
+    },
+    
+    "usuario_valido": {
+      "id": "user01",
+      "username": "usuario_test",
+      "password": "Password123!",
+      "email": "usuario@test.com",
+      "rol": "Usuario",
+      "estado": "activo",
+      "permisos": ["read", "write"],
+      "descripcion": "Usuario estándar para pruebas de login exitoso",
+      "casos_prueba": ["CP-L01"]
+    },
+
+    "usuario_inactivo": {
+      "id": "user02",
+      "username": "usuario_inactivo",
+      "password": "Password123!",
+      "email": "inactivo@test.com",
+      "rol": "Usuario",
+      "estado": "inactivo",
+      "permisos": [],
+      "descripcion": "Usuario deshabilitado para probar acceso denegado",
+      "casos_prueba": ["CP-L07"],
+      "nota": "Este usuario debe estar deshabilitado en el sistema"
+    },
+
+    "usuario_no_registrado": {
+      "id": "fake01",
+      "username": "usuario_inexistente_12345",
+      "password": "cualquier_password",
+      "email": "noexiste@test.com",
+      "rol": null,
+      "estado": null,
+      "permisos": [],
+      "descripcion": "Usuario que NO existe en el sistema",
+      "casos_prueba": ["CP-L02"],
+      "nota": "Este usuario NO debe existir en la BD"
+    },
+
+    "usuario_password_incorrecta": {
+      "id": "user03",
+      "username": "admin",
+      "password": "password_incorrecta_123",
+      "email": "admin@dolibarr.local",
+      "rol": null,
+      "estado": null,
+      "permisos": [],
+      "descripcion": "Usuario válido pero con contraseña incorrecta",
+      "casos_prueba": ["CP-L05"]
+    },
+
+    "usuario_campos_vacios": {
+      "username": "",
+      "password": "",
+      "descripcion": "Prueba de validación de campos obligatorios",
+      "casos_prueba": ["CP-L03", "CP-L06"]
+    },
+
+    "usuario_formato_invalido": {
+      "username": "user@#$%^&*",
+      "password": "Password123!",
+      "descripcion": "Usuario con caracteres especiales no permitidos",
+      "casos_prueba": ["CP-L04"]
+    },
+
+    "usuario_longitud_minima": {
+      "username": "admin",
+      "password": "Pass1234",
+      "descripcion": "Usuario y contraseña con longitud mínima válida",
+      "longitudes": {
+        "username": 5,
+        "password": 8
+      },
+      "casos_prueba": ["CP-L09", "CP-L15"]
+    },
+
+    "usuario_longitud_maxima": {
+      "username": "12345678901234567890123456789012345678901234567890",
+      "password": "12345678901234567890",
+      "descripcion": "Usuario y contraseña con longitud máxima válida",
+      "longitudes": {
+        "username": 50,
+        "password": 20
+      },
+      "casos_prueba": ["CP-L12", "CP-L18"]
+    },
+
+    "usuario_excede_longitud": {
+      "username": "123456789012345678901234567890123456789012345678901",
+      "password": "123456789012345678901",
+      "descripcion": "Usuario y contraseña que exceden longitud máxima",
+      "longitudes": {
+        "username": 51,
+        "password": 21
+      },
+      "casos_prueba": ["CP-L13", "CP-L19"]
+    }
+  },
+
+  "roles": {
+    "SuperAdministrador": {
+      "id": "super_admin",
+      "nombre": "SuperAdministrador",
+      "descripcion": "Acceso completo al sistema",
+      "permisos": ["all"]
+    },
+    "Administrador": {
+      "id": "admin",
+      "nombre": "Administrador",
+      "descripcion": "Gestión de usuarios y configuración",
+      "permisos": ["users.create", "users.edit", "users.delete", "config.edit"]
+    },
+    "Usuario": {
+      "id": "user",
+      "nombre": "Usuario",
+      "descripcion": "Acceso estándar",
+      "permisos": ["read", "write"]
+    },
+    "Invitado": {
+      "id": "guest",
+      "nombre": "Invitado",
+      "descripcion": "Solo lectura",
+      "permisos": ["read"]
+    }
+  },
+
+  "estados": {
+    "activo": {
+      "id": 1,
+      "nombre": "Activo",
+      "descripcion": "Usuario habilitado para acceder al sistema"
+    },
+    "inactivo": {
+      "id": 0,
+      "nombre": "Inactivo",
+      "descripcion": "Usuario deshabilitado, no puede acceder"
+    },
+    "suspendido": {
+      "id": 2,
+      "nombre": "Suspendido",
+      "descripcion": "Usuario temporalmente bloqueado"
+    }
+  },
+
+  "credenciales_prueba_valor_limite": {
+    "descripcion": "Casos específicos para análisis de valor límite",
+    "usuarios": [
+      {
+        "id": "CP-L08",
+        "username": "user",
+        "username_length": 4,
+        "password": "Password123!",
+        "descripcion": "Usuario 4 caracteres (min-1)"
+      },
+      {
+        "id": "CP-L09",
+        "username": "admin",
+        "username_length": 5,
+        "password": "Password123!",
+        "descripcion": "Usuario 5 caracteres (min)"
+      },
+      {
+        "id": "CP-L10",
+        "username": "admin1",
+        "username_length": 6,
+        "password": "Password123!",
+        "descripcion": "Usuario 6 caracteres (min+1)"
+      },
+      {
+        "id": "CP-L14",
+        "username": "admin",
+        "password": "Pass123",
+        "password_length": 7,
+        "descripcion": "Contraseña 7 caracteres (min-1)"
+      },
+      {
+        "id": "CP-L15",
+        "username": "admin",
+        "password": "Pass1234",
+        "password_length": 8,
+        "descripcion": "Contraseña 8 caracteres (min)"
+      }
+    ]
+  },
+
+  "escenarios_especiales": {
+    "sql_injection": {
+      "username": "' OR '1'='1",
+      "password": "' OR '1'='1",
+      "descripcion": "Intento de inyección SQL"
+    },
+    "xss_attack": {
+      "username": "<script>alert('XSS')</script>",
+      "password": "password",
+      "descripcion": "Intento de ataque XSS"
+    },
+    "caracteres_unicode": {
+      "username": "usër_tëst",
+      "password": "Pässwörd123",
+      "descripcion": "Caracteres Unicode/acentos"
+    },
+    "espacios": {
+      "username": "user with spaces",
+      "password": "password with spaces",
+      "descripcion": "Credenciales con espacios"
+    }
+  },
+
+  "configuracion": {
+    "politicas_password": {
+      "longitud_minima": 8,
+      "longitud_maxima": 20,
+      "requiere_mayuscula": true,
+      "requiere_minuscula": true,
+      "requiere_numero": true,
+      "requiere_caracter_especial": false,
+      "intentos_maximos": 3,
+      "tiempo_bloqueo_minutos": 15
+    },
+    "politicas_username": {
+      "longitud_minima": 5,
+      "longitud_maxima": 50,
+      "caracteres_permitidos": "letras, números, guión bajo, guión medio",
+      "caracteres_no_permitidos": "espacios, caracteres especiales excepto _ y -"
+    }
+  },
+
+  "notas": {
+    "preparacion_entorno": [
+      "Asegúrate de crear el usuario 'usuario_inactivo' y deshabilitarlo en Dolibarr",
+      "El usuario 'admin' debe tener la contraseña 'admin' por defecto",
+      "Verifica que NO exista el usuario 'usuario_inexistente_12345'",
+      "Ajusta las longitudes según la configuración real de tu Dolibarr"
+    ],
+    "uso": [
+      "Este archivo sirve como referencia para las pruebas",
+      "Los valores pueden ser importados en los tests usando require()",
+      "Mantén sincronizados estos datos con los datos reales en Dolibarr",
+      "Actualiza las contraseñas si cambian en el entorno de pruebas"
+    ]
+  }
+}

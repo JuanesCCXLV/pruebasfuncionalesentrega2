@@ -1,16 +1,31 @@
 {
   "name": "dolibarr-functional-tests",
   "version": "1.0.0",
-  "description": "Pruebas funcionales para Dolibarr basadas en técnicas de caja negra",
+  "description": "Automatización de pruebas funcionales para Dolibarr usando Playwright",
+  "main": "index.js",
   "scripts": {
-    "test": "npx playwright test",
-    "test:headed": "npx playwright test --headed",
-    "test:debug": "npx playwright test --debug",
-    "test:ui": "npx playwright test --ui",
-    "report": "npx playwright show-report"
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:login": "playwright test tests/login.spec.js",
+    "test:miembro": "playwright test tests/crear-miembro.spec.js",
+    "test:tercero": "playwright test tests/crear-tercero.spec.js",
+    "test:all": "playwright test --reporter=html",
+    "report": "playwright show-report reports/html",
+    "codegen": "playwright codegen http://localhost:8080"
   },
+  "keywords": [
+    "playwright",
+    "testing",
+    "dolibarr",
+    "functional-tests",
+    "e2e"
+  ],
+  "author": "Grupo 4 - Calidad de Productos de Software - Univalle 2025 - Juan E. Pereira",
+  "license": "MIT",
   "devDependencies": {
     "@playwright/test": "^1.40.0",
-    "@types/node": "^20.0.0"
+    "dotenv": "^16.6.1"
   }
 }

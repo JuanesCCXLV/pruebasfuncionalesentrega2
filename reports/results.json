@@ -1,0 +1,446 @@
+{
+  "config": {
+    "configFile": "/home/juanes/Descargas/prueba/playwright.config.js",
+    "rootDir": "/home/juanes/Descargas/prueba/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "reports/html"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/results.json"
+        }
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/juanes/Descargas/prueba/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/juanes/Descargas/prueba/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "quick-debug.spec.js",
+      "file": "quick-debug.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "🔍 Diagnóstico Rápido de Selectores",
+          "file": "quick-debug.spec.js",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "DEBUG Miembros: Ver estructura del formulario",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9404,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "\n📍 URL: http://localhost:8080/adherents/card.php?action=create\n"
+                        },
+                        {
+                          "text": "\n📋 FORMULARIO DE MIEMBROS\n"
+                        },
+                        {
+                          "text": "═══════════════════════════════════\n"
+                        },
+                        {
+                          "text": "\n🔽 Selects:\n"
+                        },
+                        {
+                          "text": "[\n  {\n    \"name\": \"searchselectcombo\",\n    \"id\": \"searchselectcombo\",\n    \"options\": [\n      \"\",\n      \"<span class=\\\"fas fa-user-alt em092 infobox-adherent pictofixedwidth\\\" style=\\\"\\\"></span> Members\",\n      \"<span class=\\\"fas fa-building pictofixedwidth\\\" style=\\\" color: #6c6aa8;\\\"></span> Third parties\"\n    ]\n  },\n  {\n    \"name\": \"typeid\",\n    \"id\": \"typeid\",\n    \"options\": [\n      \"Administrador\"\n    ]\n  },\n  {\n    \"name\": \"morphy\",\n    \"id\": \"morphy\",\n    \"options\": [\n      \" \",\n      \"Individual\",\n      \"Corporation\"\n    ]\n  },\n  {\n    \"name\": \"civility_id\",\n    \"id\": \"civility_id\",\n    \"options\": [\n      \" \",\n      \"Mrs.\",\n      \"Mr.\"\n    ]\n  },\n  {\n    \"name\": \"gender\",\n    \"id\": \"gender\",\n    \"options\": [\n      \" \",\n      \"Male\",\n      \"Female\"\n    ]\n  },\n  {\n    \"name\": \"country_id\",\n    \"id\": \"selectcountry_id\",\n    \"options\": [\n      \" \",\n      \"Afghanistan (AF)\",\n      \"Åland Islands (AX)\"\n    ]\n  },\n  {\n    \"name\": \"state_id\",\n    \"id\": \"state_id\",\n    \"options\": [\n      \" \",\n      \"AMA - Amazonas\",\n      \"ANT - Antioquia\"\n    ]\n  },\n  {\n    \"name\": \"public\",\n    \"id\": \"public\",\n    \"options\": [\n      \"Yes\",\n      \"No\"\n    ]\n  },\n  {\n    \"name\": \"memcats[]\",\n    \"id\": \"memcats\",\n    \"options\": []\n  },\n  {\n    \"name\": \"\",\n    \"id\": \"\",\n    \"options\": [\n      \"#1 card.php?action=create (03:12:07)\"\n    ]\n  }\n]\n"
+                        },
+                        {
+                          "text": "\n🔘 Radio Buttons:\n"
+                        },
+                        {
+                          "text": "[]\n"
+                        },
+                        {
+                          "text": "\n📝 Text Inputs:\n"
+                        },
+                        {
+                          "text": "[\n  {\n    \"name\": \"societe\",\n    \"id\": \"\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"lastname\",\n    \"id\": \"\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"firstname\",\n    \"id\": \"\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"member_email\",\n    \"id\": \"\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"member_url\",\n    \"id\": \"member_url\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"zipcode\",\n    \"id\": \"zipcode\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"town\",\n    \"id\": \"town\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"phone\",\n    \"id\": \"\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"phone_perso\",\n    \"id\": \"\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"phone_mobile\",\n    \"id\": \"\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"birth\",\n    \"id\": \"birth\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"\",\n    \"id\": \"\",\n    \"placeholder\": \"Search\"\n  },\n  {\n    \"name\": \"\",\n    \"id\": \"\",\n    \"placeholder\": \"Search\"\n  }\n]\n"
+                        },
+                        {
+                          "text": "\n🔵 Botones:\n"
+                        },
+                        {
+                          "text": "[\n  {\n    \"name\": \"save\",\n    \"id\": \"\",\n    \"value\": \"Create member\",\n    \"text\": \"\"\n  },\n  {\n    \"name\": \"cancel\",\n    \"id\": \"\",\n    \"value\": \"Cancel\",\n    \"text\": \"\"\n  }\n]\n"
+                        },
+                        {
+                          "text": "\n✅ Screenshot: debug-miembros-form.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T03:12:00.674Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ed4a3496187aa51bf9d6-f414f16f5dd9c74b02ab",
+              "file": "quick-debug.spec.js",
+              "line": 8,
+              "column": 3
+            },
+            {
+              "title": "DEBUG Terceros: Ver estructura del formulario",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9506,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "\n📍 URL: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "\n📋 FORMULARIO DE TERCEROS\n"
+                        },
+                        {
+                          "text": "═══════════════════════════════════\n"
+                        },
+                        {
+                          "text": "\n📝 Text Inputs:\n"
+                        },
+                        {
+                          "text": "[\n  {\n    \"name\": \"name\",\n    \"id\": \"name\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"name_alias\",\n    \"id\": \"name_alias_input\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"customer_code\",\n    \"id\": \"customer_code\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"supplier_code\",\n    \"id\": \"supplier_code\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"barcode\",\n    \"id\": \"barcode\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"zipcode\",\n    \"id\": \"zipcode\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"town\",\n    \"id\": \"town\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"phone\",\n    \"id\": \"phone\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"fax\",\n    \"id\": \"fax\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"email\",\n    \"id\": \"email\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"url\",\n    \"id\": \"url\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"facebook\",\n    \"id\": \"facebook\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"instagram\",\n    \"id\": \"instagram\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"linkedin\",\n    \"id\": \"linkedin\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"snapchat\",\n    \"id\": \"snapchat\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"skype\",\n    \"id\": \"skype\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"twitter\",\n    \"id\": \"twitter\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"whatsapp\",\n    \"id\": \"whatsapp\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"youtube\",\n    \"id\": \"youtube\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"idprof1\",\n    \"id\": \"idprof1\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"tva_intra\",\n    \"id\": \"intra_vat\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"capital\",\n    \"id\": \"capital\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"\",\n    \"id\": \"\",\n    \"placeholder\": \"Search\"\n  },\n  {\n    \"name\": \"\",\n    \"id\": \"\",\n    \"placeholder\": \"Search\"\n  }\n]\n"
+                        },
+                        {
+                          "text": "\n🔘 Radio Buttons:\n"
+                        },
+                        {
+                          "text": "[]\n"
+                        },
+                        {
+                          "text": "\n☑️  Checkboxes:\n"
+                        },
+                        {
+                          "text": "[\n  {\n    \"name\": \"assujtva_value\",\n    \"value\": \"1\",\n    \"id\": \"assujtva_value\",\n    \"checked\": true\n  }\n]\n"
+                        },
+                        {
+                          "text": "\n🔵 Botones:\n"
+                        },
+                        {
+                          "text": "[\n  {\n    \"name\": \"save\",\n    \"id\": \"\",\n    \"value\": \"Create third party\"\n  },\n  {\n    \"name\": \"cancel\",\n    \"id\": \"\",\n    \"value\": \"Cancel\"\n  }\n]\n"
+                        },
+                        {
+                          "text": "\n✅ Screenshot: debug-terceros-form.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T03:12:10.369Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ed4a3496187aa51bf9d6-2dd291965c259aac7fd2",
+              "file": "quick-debug.spec.js",
+              "line": 64,
+              "column": 3
+            },
+            {
+              "title": "DEBUG Tipo Miembro: Ver estructura del formulario",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9221,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "\n📍 URL: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "\n📋 FORMULARIO DE TIPO DE MIEMBRO\n"
+                        },
+                        {
+                          "text": "═══════════════════════════════════\n"
+                        },
+                        {
+                          "text": "\n📍 URL: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "📄 Título: Members type setup\n"
+                        },
+                        {
+                          "text": "📋 ¿Tiene formulario?: \u001b[33mtrue\u001b[39m\n"
+                        },
+                        {
+                          "text": "\n🔽 Selects:\n"
+                        },
+                        {
+                          "text": "[\n  {\n    \"name\": \"searchselectcombo\",\n    \"id\": \"searchselectcombo\",\n    \"options\": [\n      {\n        \"value\": \"\",\n        \"text\": \"\"\n      },\n      {\n        \"value\": \"searchintomember\",\n        \"text\": \"<span class=\\\"fas fa-user-alt em092 infobox-adherent pictofixedwidth\\\" style=\\\"\\\"></span> Members\"\n      },\n      {\n        \"value\": \"searchintothirdparty\",\n        \"text\": \"<span class=\\\"fas fa-building pictofixedwidth\\\" style=\\\" color: #6c6aa8;\\\"></span> Third parties\"\n      },\n      {\n        \"value\": \"searchintocontact\",\n        \"text\": \"<span class=\\\"fas fa-address-book pictofixedwidth\\\" style=\\\" color: #6c6aa8;\\\"></span> Contacts\"\n      },\n      {\n        \"value\": \"searchintoproduct\",\n        \"text\": \"<span class=\\\"fas fa-cube pictofixedwidth\\\" style=\\\" color: #a69944;\\\"></span> Products or services\"\n      },\n      {\n        \"value\": \"searchintobatch\",\n        \"text\": \"<span class=\\\"fas fa-barcode pictofixedwidth\\\" style=\\\" color: #a69944;\\\"></span> Lots / Serials\"\n      },\n      {\n        \"value\": \"searchintomo\",\n        \"text\": \"<span class=\\\"fas fa-cubes pictofixedwidth\\\" style=\\\" color: #a69944;\\\"></span> Manufacturing Orders\"\n      },\n      {\n        \"value\": \"searchintoprojects\",\n        \"text\": \"<span class=\\\"fas fa-project-diagram em088 infobox-project pictofixedwidth\\\" style=\\\"\\\"></span> Projects\"\n      },\n      {\n        \"value\": \"searchintotasks\",\n        \"text\": \"<span class=\\\"fas fa-tasks infobox-project pictofixedwidth\\\" style=\\\"\\\"></span> Tasks\"\n      },\n      {\n        \"value\": \"searchintopropal\",\n        \"text\": \"<span class=\\\"fas fa-file-signature infobox-propal pictofixedwidth\\\" style=\\\"\\\"></span> Commercial proposals\"\n      },\n      {\n        \"value\": \"searchintoorder\",\n        \"text\": \"<span class=\\\"fas fa-file-invoice infobox-commande pictofixedwidth\\\" style=\\\"\\\"></span> Sales orders\"\n      },\n      {\n        \"value\": \"searchintoshipment\",\n        \"text\": \"<span class=\\\"fas fa-dolly em092 infobox-commande pictofixedwidth\\\" style=\\\"\\\"></span> Customer shipments\"\n      },\n      {\n        \"value\": \"searchintoinvoice\",\n        \"text\": \"<span class=\\\"fas fa-file-invoice-dollar infobox-commande pictofixedwidth\\\" style=\\\"\\\"></span> Customer invoices\"\n      },\n      {\n        \"value\": \"searchintosupplierpropal\",\n        \"text\": \"<span class=\\\"fas fa-file-signature infobox-supplier_proposal pictofixedwidth\\\" style=\\\"\\\"></span> Vendor proposals\"\n      },\n      {\n        \"value\": \"searchintosupplierorder\",\n        \"text\": \"<span class=\\\"fas fa-dol-order_supplier infobox-order_supplier pictofixedwidth\\\" style=\\\"\\\"></span> Purchase orders\"\n      },\n      {\n        \"value\": \"searchintosupplierinvoice\",\n        \"text\": \"<span class=\\\"fas fa-file-invoice-dollar infobox-order_supplier pictofixedwidth\\\" style=\\\"\\\"></span> Vendor invoices\"\n      },\n      {\n        \"value\": \"searchintocontract\",\n        \"text\": \"<span class=\\\"fas fa-suitcase em092 infobox-contrat pictofixedwidth\\\" style=\\\"\\\"></span> Contracts\"\n      },\n      {\n        \"value\": \"searchintointervention\",\n        \"text\": \"<span class=\\\"fas fa-ambulance em080 infobox-contrat pictofixedwidth\\\" style=\\\"\\\"></span> Interventions\"\n      },\n      {\n        \"value\": \"searchintoknowledgemanagement\",\n        \"text\": \"<span class=\\\"fas fa-ticket-alt infobox-contrat rotate90 pictofixedwidth\\\" style=\\\"\\\"></span> Knowledge base\"\n      },\n      {\n        \"value\": \"searchintotickets\",\n        \"text\": \"<span class=\\\"fas fa-ticket-alt infobox-contrat pictofixedwidth\\\" style=\\\"\\\"></span> Tickets\"\n      },\n      {\n        \"value\": \"searchintocustomerpayments\",\n        \"text\": \"<span class=\\\"fas fa-money-check-alt em080 infobox-bank_account pictofixedwidth\\\" style=\\\"\\\"></span> Customer payments\"\n      },\n      {\n        \"value\": \"searchintovendorpayments\",\n        \"text\": \"<span class=\\\"fas fa-money-check-alt em080 infobox-bank_account pictofixedwidth\\\" style=\\\"\\\"></span> Vendor payments\"\n      },\n      {\n        \"value\": \"searchintomiscpayments\",\n        \"text\": \"<span class=\\\"fas fa-money-check-alt em080 infobox-bank_account pictofixedwidth\\\" style=\\\"\\\"></span> Miscellaneous payments\"\n      },\n      {\n        \"value\": \"searchintouser\",\n        \"text\": \"<span class=\\\"fas fa-user infobox-adherent pictofixedwidth\\\" style=\\\"\\\"></span> Users\"\n      },\n      {\n        \"value\": \"searchintoexpensereport\",\n        \"text\": \"<img src=\\\"/theme/eldy/img/object_trip.png\\\" alt=\\\"\\\" class=\\\"pictofixedwidth\\\"> Expense reports\"\n      },\n      {\n        \"value\": \"searchintoleaves\",\n        \"text\": \"<span class=\\\"fas fa-umbrella-beach em088 infobox-holiday pictofixedwidth\\\" style=\\\"\\\"></span> Leave\"\n      }\n    ]\n  },\n  {\n    \"name\": \"status\",\n    \"id\": \"status\",\n    \"options\": [\n      {\n        \"value\": \"0\",\n        \"text\": \"Closed\"\n      },\n      {\n        \"value\": \"1\",\n        \"text\": \"Open\"\n      }\n    ]\n  },\n  {\n    \"name\": \"morphy\",\n    \"id\": \"morphy\",\n    \"options\": [\n      {\n        \"value\": \"\",\n        \"text\": \"Corporation and Individual\"\n      },\n      {\n        \"value\": \"phy\",\n        \"text\": \"Individual\"\n      },\n      {\n        \"value\": \"mor\",\n        \"text\": \"Corporation\"\n      }\n    ]\n  },\n  {\n    \"name\": \"subscription\",\n    \"id\": \"subscription\",\n    \"options\": [\n      {\n        \"value\": \"1\",\n        \"text\": \"Yes\"\n      },\n      {\n        \"value\": \"0\",\n        \"text\": \"No\"\n      }\n    ]\n  },\n  {\n    \"name\": \"caneditamount\",\n    \"id\": \"caneditamount\",\n    \"options\": [\n      {\n        \"value\": \"1\",\n        \"text\": \"Yes\"\n      },\n      {\n        \"value\": \"0\",\n        \"text\": \"No\"\n      }\n    ]\n  },\n  {\n    \"name\": \"vote\",\n    \"id\": \"vote\",\n    \"options\": [\n      {\n        \"value\": \"1\",\n        \"text\": \"Yes\"\n      },\n      {\n        \"value\": \"0\",\n        \"text\": \"No\"\n      }\n    ]\n  },\n  {\n    \"name\": \"duration_unit\",\n    \"id\": \"duration_unit\",\n    \"options\": [\n      {\n        \"value\": \"s\",\n        \"text\": \"Second\"\n      },\n      {\n        \"value\": \"i\",\n        \"text\": \"Minute\"\n      },\n      {\n        \"value\": \"h\",\n        \"text\": \"Hour\"\n      },\n      {\n        \"value\": \"d\",\n        \"text\": \"Day\"\n      },\n      {\n        \"value\": \"w\",\n        \"text\": \"Week\"\n      },\n      {\n        \"value\": \"m\",\n        \"text\": \"Month\"\n      },\n      {\n        \"value\": \"y\",\n        \"text\": \"Year\"\n      }\n    ]\n  },\n  {\n    \"name\": \"\",\n    \"id\": \"\",\n    \"options\": [\n      {\n        \"value\": \"X903791d03b075ed616c3da9ab6a909ca\",\n        \"text\": \"#1 type.php?action=edit&rowid=1 (03:12:26)\"\n      }\n    ]\n  }\n]\n"
+                        },
+                        {
+                          "text": "\n🔘 Radio Buttons:\n"
+                        },
+                        {
+                          "text": "[]\n"
+                        },
+                        {
+                          "text": "\n📝 Text Inputs:\n"
+                        },
+                        {
+                          "text": "[\n  {\n    \"name\": \"label\",\n    \"id\": \"\",\n    \"type\": \"text\"\n  },\n  {\n    \"name\": \"\",\n    \"id\": \"\",\n    \"type\": \"text\"\n  },\n  {\n    \"name\": \"\",\n    \"id\": \"\",\n    \"type\": \"text\"\n  }\n]\n"
+                        },
+                        {
+                          "text": "\n✅ Screenshot: debug-tipo-miembro-form.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T03:12:19.902Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ed4a3496187aa51bf9d6-59b5079831f0acb2f9b8",
+              "file": "quick-debug.spec.js",
+              "line": 119,
+              "column": 3
+            },
+            {
+              "title": "DEBUG: Probar creación simple de miembro",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9254,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "\n🧪 Intentando llenar formulario...\n"
+                        },
+                        {
+                          "text": "📝 Campos de nombre encontrados: 1\n"
+                        },
+                        {
+                          "text": "✅ Nombre llenado\n"
+                        },
+                        {
+                          "text": "📝 Campos de apellido encontrados: 1\n"
+                        },
+                        {
+                          "text": "✅ Apellido llenado\n"
+                        },
+                        {
+                          "text": "\n✅ Screenshot: debug-form-filled.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T03:12:29.145Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ed4a3496187aa51bf9d6-0b8522375f4fdc6ad0a3",
+              "file": "quick-debug.spec.js",
+              "line": 171,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-12-17T03:12:00.002Z",
+    "duration": 38555.97,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
