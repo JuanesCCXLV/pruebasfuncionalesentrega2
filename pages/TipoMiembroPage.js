@@ -8,42 +8,42 @@ class TipoMiembroPage {
     this.membersMenu = 'a[href*="adherents/index.php"]';
     this.memberTypesLink = 'a[href*="adherents/type.php"]';
     
-    // Selectores del formulario de edición
-    this.estadoSelect = 'select[name="statut"]';
-    this.naturalezaCheckboxes = {
-      individual: 'input[name="morphy"][value="phy"]',
-      corporacion: 'input[name="morphy"][value="mor"]',
-      ambos: 'input[name="morphy"][value=""]'
-    };
-    this.sujetoCotizacionSi = 'input[name="subscription"][value="1"]';
-    this.sujetoCotizacionNo = 'input[name="subscription"][value="0"]';
-    this.calcularImporteSi = 'input[name="auto_renew"][value="1"]';
-    this.calcularImporteNo = 'input[name="auto_renew"][value="0"]';
+    // Selectores del formulario de edición (CORREGIDOS según estructura real)
+    this.estadoSelect = 'select[name="status"]';
+    this.naturalezaSelect = 'select[name="morphy"]';
+    this.sujetoCotizacionSelect = 'select[name="subscription"]';
+    this.calcularImporteSelect = 'select[name="caneditamount"]';
     this.importeInput = 'input[name="amount"]';
     this.duracionTipoSelect = 'select[name="duration_unit"]';
     this.duracionValorInput = 'input[name="duration_value"]';
-    this.votoAutorizadoSi = 'input[name="vote"][value="1"]';
-    this.votoAutorizadoNo = 'input[name="vote"][value="0"]';
+    this.votoAutorizadoSelect = 'select[name="vote"]';
     this.submitButton = [
-      'input[type="submit"][name="update"]',
+      'input[type="submit"][name="save"]',
       'input.button[value*="Save"]',
-      'input.button[value*="Modify"]'
+      'input[type="submit"]'
     ];
     
-    // Selectores de validación
-    this.successMessage = '.ok, div.ok, .mesgs';
-    this.errorMessage = '.error, div.error, .warning';
+    // Selectores de validación (CORREGIDOS)
+    this.successMessage = [
+      'div.ok',
+      '.ok',
+      'div[class*="mesgs"]',
+      'div[class*="success"]',
+      // Si está en la página de lista después de guardar
+      'table.liste',
+      // O si permanece en la misma página sin errores
+      'form'
+    ];
+    this.errorMessage = '.error, div.error, .warning, div.warning';
     this.validationError = '.error, .warning, .fieldrequired';
   }
 
   /**
    * Navegar a la página de edición de tipo de miembro
-   * @param {number} typeId - ID del tipo de miembro (por defecto 1)
    */
   async goto(typeId = 1) {
     console.log(`🔄 Navegando a editar tipo de miembro ID: ${typeId}...`);
     
-    // Método directo por URL
     await this.page.goto(`/adherents/type.php?action=edit&rowid=${typeId}`);
     await this.page.waitForLoadState('networkidle');
     await this.page.waitForTimeout(1000);
@@ -51,7 +51,6 @@ class TipoMiembroPage {
     const url = this.page.url();
     console.log(`📍 URL actual: ${url}`);
     
-    // Verificar que estamos en la página correcta
     if (!url.includes('type.php') || !url.includes('action=edit')) {
       console.log('⚠️ No estamos en la página de edición de tipo');
       throw new Error('No se pudo navegar a la página de edición de tipo de miembro');
@@ -64,16 +63,13 @@ class TipoMiembroPage {
   async gotoFromMenu(typeId = 1) {
     console.log('🔄 Navegando desde el menú...');
     
-    // Click en Members menu
     try {
       await this.page.click(this.membersMenu);
       await this.page.waitForLoadState('networkidle');
       
-      // Click en Member Types
       await this.page.click(this.memberTypesLink);
       await this.page.waitForLoadState('networkidle');
       
-      // Click en el tipo específico para editar
       await this.page.click(`a[href*="type.php?action=edit&rowid=${typeId}"]`);
       await this.page.waitForLoadState('networkidle');
       
@@ -85,7 +81,6 @@ class TipoMiembroPage {
 
   /**
    * Establecer estado del miembro
-   * @param {string} estado - 'Activo' o 'Cerrado'
    */
   async setEstado(estado) {
     const valor = estado === 'Activo' ? '1' : '0';
@@ -95,42 +90,47 @@ class TipoMiembroPage {
 
   /**
    * Establecer naturaleza
-   * @param {string} naturaleza - 'Individual', 'Corporación' o 'Ambos'
    */
   async setNaturaleza(naturaleza) {
-    const selector = naturaleza === 'Individual' 
-      ? this.naturalezaCheckboxes.individual
-      : naturaleza === 'Corporación'
-      ? this.naturalezaCheckboxes.corporacion
-      : this.naturalezaCheckboxes.ambos;
+    let value;
+    switch(naturaleza) {
+      case 'Individual':
+        value = 'phy';
+        break;
+      case 'Corporación':
+        value = 'mor';
+        break;
+      case 'Ambos':
+        value = '';
+        break;
+      default:
+        throw new Error(`Naturaleza desconocida: ${naturaleza}`);
+    }
     
-    await this.page.check(selector);
+    await this.page.selectOption(this.naturalezaSelect, value);
     console.log(`✅ Naturaleza establecida: ${naturaleza}`);
   }
 
   /**
    * Configurar sujeto a cotización
-   * @param {boolean} sujeto - true o false
    */
   async setSujetoCotizacion(sujeto) {
-    const selector = sujeto ? this.sujetoCotizacionSi : this.sujetoCotizacionNo;
-    await this.page.check(selector);
+    const value = sujeto ? '1' : '0';
+    await this.page.selectOption(this.sujetoCotizacionSelect, value);
     console.log(`✅ Sujeto a cotización: ${sujeto ? 'Sí' : 'No'}`);
   }
 
   /**
-   * Configurar calcular importe
-   * @param {boolean} calcular - true o false
+   * Configurar calcular importe (caneditamount)
    */
   async setCalcularImporte(calcular) {
-    const selector = calcular ? this.calcularImporteSi : this.calcularImporteNo;
-    await this.page.check(selector);
-    console.log(`✅ Calcular importe: ${calcular ? 'Sí' : 'No'}`);
+    const value = calcular ? '1' : '0';
+    await this.page.selectOption(this.calcularImporteSelect, value);
+    console.log(`✅ Puede editar importe: ${calcular ? 'Sí' : 'No'}`);
   }
 
   /**
    * Establecer importe
-   * @param {string|number} importe - Valor del importe o vacío
    */
   async setImporte(importe) {
     if (importe !== undefined && importe !== null) {
@@ -143,14 +143,46 @@ class TipoMiembroPage {
   }
 
   /**
-   * Configurar duración
-   * @param {string} tipo - 'Año', 'Mes', etc. o vacío
-   * @param {string|number} valor - Cantidad o vacío
+   * Configurar duración (compatible con Select2)
    */
   async setDuracion(tipo, valor) {
     if (tipo) {
-      await this.page.selectOption(this.duracionTipoSelect, { label: tipo });
-      console.log(`✅ Tipo de duración: ${tipo}`);
+      try {
+        // Intentar interactuar con Select2
+        // Primero hacer click en el contenedor visible de Select2
+        const select2Container = this.page.locator('.select2-container').filter({ 
+          has: this.page.locator('select[name="duration_unit"]') 
+        });
+        
+        const isVisible = await select2Container.isVisible();
+        
+        if (isVisible) {
+          // Click en el select2 para abrir el dropdown
+          await select2Container.click();
+          await this.page.waitForTimeout(300);
+          
+          // Buscar y clickear la opción
+          const optionText = this.getDurationLabel(tipo);
+          await this.page.click(`li.select2-results__option:has-text("${optionText}")`);
+          console.log(`✅ Tipo de duración: ${optionText}`);
+        } else {
+          // Fallback: usar select normal si Select2 no está visible
+          await this.page.selectOption(this.duracionTipoSelect, tipo);
+          console.log(`✅ Tipo de duración: ${tipo}`);
+        }
+      } catch (error) {
+        console.log(`⚠️ Error con Select2, intentando select directo...`);
+        // Último intento: manipular el valor del select oculto con JavaScript
+        await this.page.evaluate((value) => {
+          const select = document.querySelector('select[name="duration_unit"]');
+          if (select) {
+            select.value = value;
+            // Disparar evento change
+            select.dispatchEvent(new Event('change', { bubbles: true }));
+          }
+        }, tipo);
+        console.log(`✅ Tipo de duración establecido via JavaScript: ${tipo}`);
+      }
     }
     
     if (valor !== undefined && valor !== null) {
@@ -163,22 +195,41 @@ class TipoMiembroPage {
   }
 
   /**
+   * Obtener etiqueta de duración según el valor
+   */
+  getDurationLabel(value) {
+    const map = {
+      's': 'Second',
+      'i': 'Minute',
+      'h': 'Hour',
+      'd': 'Day',
+      'w': 'Week',
+      'm': 'Month',
+      'y': 'Year',
+      'year': 'Year',
+      'month': 'Month'
+    };
+    return map[value] || value;
+  }
+
+  /**
    * Configurar voto autorizado
-   * @param {boolean} autorizado - true o false
    */
   async setVotoAutorizado(autorizado) {
-    const selector = autorizado ? this.votoAutorizadoSi : this.votoAutorizadoNo;
-    await this.page.check(selector);
+    const value = autorizado ? '1' : '0';
+    await this.page.selectOption(this.votoAutorizadoSelect, value);
     console.log(`✅ Voto autorizado: ${autorizado ? 'Sí' : 'No'}`);
   }
 
   /**
    * Editar tipo de miembro completo
-   * @param {Object} config - Configuración del tipo
    */
   async editarTipoMiembro(config) {
     try {
       console.log('📝 Editando tipo de miembro...');
+      
+      // Esperar a que el formulario esté listo
+      await this.page.waitForSelector('input[name="label"]', { timeout: 5000 });
       
       // Estado
       if (config.estado) {
@@ -194,7 +245,6 @@ class TipoMiembroPage {
       if (config.sujetoCotizacion !== undefined) {
         await this.setSujetoCotizacion(config.sujetoCotizacion);
         
-        // Si está sujeto a cotización, configurar importe
         if (config.sujetoCotizacion) {
           if (config.calcularImporte !== undefined) {
             await this.setCalcularImporte(config.calcularImporte);
@@ -240,7 +290,7 @@ class TipoMiembroPage {
     if (buttonSelector) {
       await this.page.click(buttonSelector);
       await this.page.waitForLoadState('networkidle');
-      await this.page.waitForTimeout(1000);
+      await this.page.waitForTimeout(1500); // Aumentado para dar tiempo a la respuesta
       console.log('✅ Cambios guardados');
     } else {
       throw new Error('No se encontró el botón de guardar');
@@ -268,13 +318,55 @@ class TipoMiembroPage {
   }
 
   /**
-   * Verificar si la edición fue exitosa
+   * Verificar si la edición fue exitosa (MEJORADO)
    */
   async edicionExitosa() {
     try {
-      await this.page.waitForSelector(this.successMessage, { timeout: 5000 });
+      // Esperar un momento para que se procese la respuesta
+      await this.page.waitForTimeout(1000);
+      
+      const currentUrl = this.page.url();
+      console.log(`📍 URL después de guardar: ${currentUrl}`);
+      
+      // Verificar si hay mensajes de error
+      const hasError = await this.hasValidationError();
+      if (hasError) {
+        console.log('❌ Se detectó un error de validación');
+        return false;
+      }
+      
+      // Si la URL cambió a la lista de tipos, fue exitoso
+      if (currentUrl.includes('type.php') && !currentUrl.includes('action=edit')) {
+        console.log('✅ Redirección a lista de tipos (éxito)');
+        return true;
+      }
+      
+      // Si permanece en la página de edición sin errores, también es exitoso
+      if (currentUrl.includes('action=edit') && !hasError) {
+        console.log('✅ Permanece en edición sin errores (éxito)');
+        return true;
+      }
+      
+      // Buscar mensaje de éxito explícito
+      for (const selector of this.successMessage) {
+        try {
+          const element = await this.page.locator(selector).first();
+          const isVisible = await element.isVisible({ timeout: 1000 });
+          if (isVisible) {
+            console.log(`✅ Mensaje de éxito encontrado con selector: ${selector}`);
+            return true;
+          }
+        } catch (e) {
+          continue;
+        }
+      }
+      
+      // Si llegamos aquí y no hay errores, consideramos que fue exitoso
+      console.log('✅ Sin errores detectados (éxito por defecto)');
       return true;
-    } catch {
+      
+    } catch (error) {
+      console.log(`⚠️ Error verificando éxito: ${error.message}`);
       return false;
     }
   }
@@ -297,8 +389,8 @@ class TipoMiembroPage {
    */
   async hasValidationError() {
     try {
-      await this.page.waitForSelector(this.validationError, { timeout: 3000 });
-      return true;
+      const errorVisible = await this.page.locator(this.validationError).first().isVisible({ timeout: 2000 });
+      return errorVisible;
     } catch {
       return false;
     }

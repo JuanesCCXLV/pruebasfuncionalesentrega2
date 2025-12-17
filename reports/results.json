@@ -92,7 +92,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 19921,
+                      "duration": 19833,
                       "errors": [],
                       "stdout": [
                         {
@@ -173,7 +173,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-17T14:26:34.244Z",
+                      "startTime": "2025-12-17T15:01:44.434Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -202,7 +202,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "timedOut",
-                      "duration": 30843,
+                      "duration": 30866,
                       "error": {
                         "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                         "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -296,7 +296,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-17T14:26:54.459Z",
+                      "startTime": "2025-12-17T15:02:04.557Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -341,7 +341,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 14277,
+                      "duration": 14187,
                       "errors": [],
                       "stdout": [
                         {
@@ -419,7 +419,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-17T14:27:25.929Z",
+                      "startTime": "2025-12-17T15:02:36.039Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -448,7 +448,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 19666,
+                      "duration": 19465,
                       "errors": [],
                       "stdout": [
                         {
@@ -526,7 +526,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-17T14:27:40.509Z",
+                      "startTime": "2025-12-17T15:02:50.507Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -555,7 +555,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "timedOut",
-                      "duration": 30891,
+                      "duration": 30912,
                       "error": {
                         "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                         "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -646,7 +646,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-17T14:28:00.191Z",
+                      "startTime": "2025-12-17T15:03:10.001Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -691,7 +691,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 11008,
+                      "duration": 10853,
                       "errors": [],
                       "stdout": [
                         {
@@ -748,7 +748,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-17T14:28:31.731Z",
+                      "startTime": "2025-12-17T15:03:41.534Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -777,7 +777,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 11023,
+                      "duration": 10795,
                       "errors": [],
                       "stdout": [
                         {
@@ -834,7 +834,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-17T14:28:43.035Z",
+                      "startTime": "2025-12-17T15:03:52.675Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -997,7 +997,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-17T14:28:54.085Z",
+                      "startTime": "2025-12-17T15:04:03.488Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1029,15 +1029,4088 @@
           ]
         }
       ]
+    },
+    {
+      "title": "crear-tercero.spec.js",
+      "file": "crear-tercero.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "RF-T: Funcionalidad de Crear Tercero",
+          "file": "crear-tercero.spec.js",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "CP-T01: Crear tercero con nombre válido, cliente potencial y proveedor Sí",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12248,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a crear tercero...\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "📝 Creando tercero...\n"
+                        },
+                        {
+                          "text": "✅ Nombre: Empresa Ejemplo 1765983882965\n"
+                        },
+                        {
+                          "text": "✅ Formulario enviado\n"
+                        },
+                        {
+                          "text": "🔍 Verificando creación. URL: http://localhost:8080/societe/card.php\n"
+                        },
+                        {
+                          "text": "✅ Tercero creado (ya no está en modo crear)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:04:34.435Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3f6e80e7f75d3034dd86-c5a90812d18958b9cde8",
+              "file": "crear-tercero.spec.js",
+              "line": 29,
+              "column": 3
+            },
+            {
+              "title": "CP-T02: Error al crear tercero con nombre vacío",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10950,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a crear tercero...\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "📝 Creando tercero...\n"
+                        },
+                        {
+                          "text": "✅ Nombre: \n"
+                        },
+                        {
+                          "text": "✅ Formulario enviado\n"
+                        },
+                        {
+                          "text": "⚠️ Error de validación detectado\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:04:46.985Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3f6e80e7f75d3034dd86-023fa456c33139e29178",
+              "file": "crear-tercero.spec.js",
+              "line": 43,
+              "column": 3
+            },
+            {
+              "title": "CP-T03: Nombre con 2 caracteres (debajo del mínimo)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11113,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a crear tercero...\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "📝 Creando tercero...\n"
+                        },
+                        {
+                          "text": "✅ Nombre: AA\n"
+                        },
+                        {
+                          "text": "✅ Formulario enviado\n"
+                        },
+                        {
+                          "text": "⚠️ Error de validación detectado\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:04:57.963Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3f6e80e7f75d3034dd86-22fb01720182789a6ed3",
+              "file": "crear-tercero.spec.js",
+              "line": 61,
+              "column": 3
+            },
+            {
+              "title": "CP-T04: Nombre con 3 caracteres (límite inferior válido)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11912,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a crear tercero...\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "📝 Creando tercero...\n"
+                        },
+                        {
+                          "text": "✅ Nombre: AAA\n"
+                        },
+                        {
+                          "text": "✅ Formulario enviado\n"
+                        },
+                        {
+                          "text": "🔍 Verificando creación. URL: http://localhost:8080/societe/card.php\n"
+                        },
+                        {
+                          "text": "✅ Tercero creado (ya no está en modo crear)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:05:09.100Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3f6e80e7f75d3034dd86-ff32c1894c5017b9d3f3",
+              "file": "crear-tercero.spec.js",
+              "line": 75,
+              "column": 3
+            },
+            {
+              "title": "CP-T05: Nombre con 50 caracteres (límite superior válido)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12054,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a crear tercero...\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "📝 Creando tercero...\n"
+                        },
+                        {
+                          "text": "✅ Nombre: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n"
+                        },
+                        {
+                          "text": "✅ Formulario enviado\n"
+                        },
+                        {
+                          "text": "🔍 Verificando creación. URL: http://localhost:8080/societe/card.php\n"
+                        },
+                        {
+                          "text": "✅ Tercero creado (ya no está en modo crear)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:05:21.036Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3f6e80e7f75d3034dd86-65ee3a2552c16090afec",
+              "file": "crear-tercero.spec.js",
+              "line": 89,
+              "column": 3
+            },
+            {
+              "title": "CP-T06: Nombre con 51 caracteres (excede límite superior)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10908,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a crear tercero...\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "📝 Creando tercero...\n"
+                        },
+                        {
+                          "text": "✅ Nombre: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n"
+                        },
+                        {
+                          "text": "✅ Formulario enviado\n"
+                        },
+                        {
+                          "text": "⚠️ Error de validación detectado\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:05:33.116Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3f6e80e7f75d3034dd86-03301c612932dcece8fa",
+              "file": "crear-tercero.spec.js",
+              "line": 103,
+              "column": 3
+            },
+            {
+              "title": "CP-T07: Crear tercero como Cliente potencial / Cliente y proveedor No",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11851,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a crear tercero...\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "📝 Creando tercero...\n"
+                        },
+                        {
+                          "text": "✅ Nombre: Corporación ABC\n"
+                        },
+                        {
+                          "text": "✅ Formulario enviado\n"
+                        },
+                        {
+                          "text": "🔍 Verificando creación. URL: http://localhost:8080/societe/card.php\n"
+                        },
+                        {
+                          "text": "✅ Tercero creado (ya no está en modo crear)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:05:44.054Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3f6e80e7f75d3034dd86-800bf3654bd82bec48c5",
+              "file": "crear-tercero.spec.js",
+              "line": 123,
+              "column": 3
+            },
+            {
+              "title": "CP-T08: Crear tercero como Cliente y proveedor Sí",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12177,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a crear tercero...\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "📝 Creando tercero...\n"
+                        },
+                        {
+                          "text": "✅ Nombre: Distribuidora XYZ\n"
+                        },
+                        {
+                          "text": "✅ Formulario enviado\n"
+                        },
+                        {
+                          "text": "🔍 Verificando creación. URL: http://localhost:8080/societe/card.php\n"
+                        },
+                        {
+                          "text": "✅ Tercero creado (ya no está en modo crear)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:05:55.930Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3f6e80e7f75d3034dd86-e3bdc661754d408bd49f",
+              "file": "crear-tercero.spec.js",
+              "line": 137,
+              "column": 3
+            },
+            {
+              "title": "CP-T09: Crear tercero Ni cliente ni cliente potencial y proveedor No",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11877,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a crear tercero...\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "📝 Creando tercero...\n"
+                        },
+                        {
+                          "text": "✅ Nombre: Otra Empresa\n"
+                        },
+                        {
+                          "text": "✅ Formulario enviado\n"
+                        },
+                        {
+                          "text": "🔍 Verificando creación. URL: http://localhost:8080/societe/card.php\n"
+                        },
+                        {
+                          "text": "✅ Tercero creado (ya no está en modo crear)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:06:08.130Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3f6e80e7f75d3034dd86-beadbb482adbf08f48de",
+              "file": "crear-tercero.spec.js",
+              "line": 151,
+              "column": 3
+            },
+            {
+              "title": "CP-T10: Crear tercero como Cliente y proveedor No",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11861,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a crear tercero...\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "📝 Creando tercero...\n"
+                        },
+                        {
+                          "text": "✅ Nombre: Empresa Solo Cliente\n"
+                        },
+                        {
+                          "text": "✅ Formulario enviado\n"
+                        },
+                        {
+                          "text": "🔍 Verificando creación. URL: http://localhost:8080/societe/card.php\n"
+                        },
+                        {
+                          "text": "✅ Tercero creado (ya no está en modo crear)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:06:20.026Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3f6e80e7f75d3034dd86-7417bc78a28db90630f9",
+              "file": "crear-tercero.spec.js",
+              "line": 169,
+              "column": 3
+            },
+            {
+              "title": "Crear múltiples terceros con diferentes configuraciones",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 25172,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a crear tercero...\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a crear tercero...\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "📝 Creando tercero...\n"
+                        },
+                        {
+                          "text": "✅ Nombre: Proveedor Principal\n"
+                        },
+                        {
+                          "text": "✅ Formulario enviado\n"
+                        },
+                        {
+                          "text": "🔍 Verificando creación. URL: http://localhost:8080/societe/card.php\n"
+                        },
+                        {
+                          "text": "✅ Tercero creado (ya no está en modo crear)\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a crear tercero...\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "📝 Creando tercero...\n"
+                        },
+                        {
+                          "text": "✅ Nombre: Cliente VIP\n"
+                        },
+                        {
+                          "text": "✅ Formulario enviado\n"
+                        },
+                        {
+                          "text": "🔍 Verificando creación. URL: http://localhost:8080/societe/card.php\n"
+                        },
+                        {
+                          "text": "✅ Tercero creado (ya no está en modo crear)\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a crear tercero...\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "📝 Creando tercero...\n"
+                        },
+                        {
+                          "text": "✅ Nombre: Partner Comercial\n"
+                        },
+                        {
+                          "text": "✅ Formulario enviado\n"
+                        },
+                        {
+                          "text": "🔍 Verificando creación. URL: http://localhost:8080/societe/card.php\n"
+                        },
+                        {
+                          "text": "✅ Tercero creado (ya no está en modo crear)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:06:31.909Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3f6e80e7f75d3034dd86-9ad9c3a27b1b676d5011",
+              "file": "crear-tercero.spec.js",
+              "line": 187,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "editar-tipo-miembro.spec.js",
+      "file": "editar-tipo-miembro.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "RF-AC: Funcionalidad de Editar Tipo de Miembro",
+          "file": "editar-tipo-miembro.spec.js",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "CP-AC-01: Activar miembro (Estado = Activo)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12181,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a editar tipo de miembro ID: 1...\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "📝 Editando tipo de miembro...\n"
+                        },
+                        {
+                          "text": "✅ Estado establecido: Activo\n"
+                        },
+                        {
+                          "text": "✅ Cambios guardados\n"
+                        },
+                        {
+                          "text": "📍 URL después de guardar: http://localhost:8080/adherents/type.php?rowid=1\n"
+                        },
+                        {
+                          "text": "✅ Redirección a lista de tipos (éxito)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:06:57.141Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "378334f108174283e39b-28e15471b53828c70337",
+              "file": "editar-tipo-miembro.spec.js",
+              "line": 32,
+              "column": 3
+            },
+            {
+              "title": "CP-AC-02: Cerrar miembro (Estado = Cerrado)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12097,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a editar tipo de miembro ID: 1...\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "📝 Editando tipo de miembro...\n"
+                        },
+                        {
+                          "text": "✅ Estado establecido: Cerrado\n"
+                        },
+                        {
+                          "text": "✅ Cambios guardados\n"
+                        },
+                        {
+                          "text": "📍 URL después de guardar: http://localhost:8080/adherents/type.php?rowid=1\n"
+                        },
+                        {
+                          "text": "✅ Redirección a lista de tipos (éxito)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:07:09.354Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "378334f108174283e39b-f7226451b9a9a830406c",
+              "file": "editar-tipo-miembro.spec.js",
+              "line": 43,
+              "column": 3
+            },
+            {
+              "title": "CP-AC-03: Cotización = Sí, Calcular importe = Sí, sin importe manual",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12181,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a editar tipo de miembro ID: 1...\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "📝 Editando tipo de miembro...\n"
+                        },
+                        {
+                          "text": "✅ Sujeto a cotización: Sí\n"
+                        },
+                        {
+                          "text": "✅ Puede editar importe: Sí\n"
+                        },
+                        {
+                          "text": "✅ Cambios guardados\n"
+                        },
+                        {
+                          "text": "📍 URL después de guardar: http://localhost:8080/adherents/type.php?rowid=1\n"
+                        },
+                        {
+                          "text": "✅ Redirección a lista de tipos (éxito)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:07:21.463Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "378334f108174283e39b-af5744e40276cc9c02a9",
+              "file": "editar-tipo-miembro.spec.js",
+              "line": 58,
+              "column": 3
+            },
+            {
+              "title": "CP-AC-04: Cotización = Sí, Calcular importe = No, con valor de importe",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12259,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a editar tipo de miembro ID: 1...\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "📝 Editando tipo de miembro...\n"
+                        },
+                        {
+                          "text": "✅ Sujeto a cotización: Sí\n"
+                        },
+                        {
+                          "text": "✅ Puede editar importe: No\n"
+                        },
+                        {
+                          "text": "✅ Importe establecido: 50000\n"
+                        },
+                        {
+                          "text": "✅ Cambios guardados\n"
+                        },
+                        {
+                          "text": "📍 URL después de guardar: http://localhost:8080/adherents/type.php?rowid=1\n"
+                        },
+                        {
+                          "text": "✅ Redirección a lista de tipos (éxito)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:07:33.672Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "378334f108174283e39b-68db9f36233779699773",
+              "file": "editar-tipo-miembro.spec.js",
+              "line": 70,
+              "column": 3
+            },
+            {
+              "title": "CP-AC-05: Cotización = Sí, Calcular importe = No, importe vacío",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12305,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a editar tipo de miembro ID: 1...\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "📝 Editando tipo de miembro...\n"
+                        },
+                        {
+                          "text": "✅ Sujeto a cotización: Sí\n"
+                        },
+                        {
+                          "text": "✅ Puede editar importe: No\n"
+                        },
+                        {
+                          "text": "✅ Importe establecido: \n"
+                        },
+                        {
+                          "text": "✅ Cambios guardados\n"
+                        },
+                        {
+                          "text": "📍 URL después de guardar: http://localhost:8080/adherents/type.php?rowid=1\n"
+                        },
+                        {
+                          "text": "✅ Redirección a lista de tipos (éxito)\n"
+                        },
+                        {
+                          "text": "📝 Nota: Dolibarr permite importe vacío sin error de validación\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:07:45.965Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "378334f108174283e39b-5f6aaeb39fae560b61c2",
+              "file": "editar-tipo-miembro.spec.js",
+              "line": 83,
+              "column": 3
+            },
+            {
+              "title": "CP-AC-06: Cotización = No, sin importe",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12264,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a editar tipo de miembro ID: 1...\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "📝 Editando tipo de miembro...\n"
+                        },
+                        {
+                          "text": "✅ Sujeto a cotización: No\n"
+                        },
+                        {
+                          "text": "✅ Cambios guardados\n"
+                        },
+                        {
+                          "text": "📍 URL después de guardar: http://localhost:8080/adherents/type.php?rowid=1\n"
+                        },
+                        {
+                          "text": "✅ Redirección a lista de tipos (éxito)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:07:58.292Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "378334f108174283e39b-68d50b2698ae28bc805a",
+              "file": "editar-tipo-miembro.spec.js",
+              "line": 103,
+              "column": 3
+            },
+            {
+              "title": "CP-AC-07: Duración tipo = Año, valor vacío",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12120,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a editar tipo de miembro ID: 1...\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "📝 Editando tipo de miembro...\n"
+                        },
+                        {
+                          "text": "✅ Tipo de duración: y\n"
+                        },
+                        {
+                          "text": "✅ Valor de duración: \n"
+                        },
+                        {
+                          "text": "✅ Cambios guardados\n"
+                        },
+                        {
+                          "text": "📍 URL después de guardar: http://localhost:8080/adherents/type.php?rowid=1\n"
+                        },
+                        {
+                          "text": "✅ Redirección a lista de tipos (éxito)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:08:10.584Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "378334f108174283e39b-01ac932f419d1294b615",
+              "file": "editar-tipo-miembro.spec.js",
+              "line": 118,
+              "column": 3
+            },
+            {
+              "title": "CP-AC-08: Duración tipo vacío, valor vacío",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12110,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a editar tipo de miembro ID: 1...\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "📝 Editando tipo de miembro...\n"
+                        },
+                        {
+                          "text": "✅ Valor de duración: \n"
+                        },
+                        {
+                          "text": "✅ Cambios guardados\n"
+                        },
+                        {
+                          "text": "📍 URL después de guardar: http://localhost:8080/adherents/type.php?rowid=1\n"
+                        },
+                        {
+                          "text": "✅ Redirección a lista de tipos (éxito)\n"
+                        },
+                        {
+                          "text": "🔍 Sistema permite duración vacía sin error\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:08:22.718Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "378334f108174283e39b-ac52864a5168c7135d7e",
+              "file": "editar-tipo-miembro.spec.js",
+              "line": 130,
+              "column": 3
+            },
+            {
+              "title": "CP-AC-09: Naturaleza = Individual, Voto autorizado = Sí",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12117,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a editar tipo de miembro ID: 1...\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "📝 Editando tipo de miembro...\n"
+                        },
+                        {
+                          "text": "✅ Naturaleza establecida: Individual\n"
+                        },
+                        {
+                          "text": "✅ Voto autorizado: Sí\n"
+                        },
+                        {
+                          "text": "✅ Cambios guardados\n"
+                        },
+                        {
+                          "text": "📍 URL después de guardar: http://localhost:8080/adherents/type.php?rowid=1\n"
+                        },
+                        {
+                          "text": "✅ Redirección a lista de tipos (éxito)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:08:34.872Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "378334f108174283e39b-15b5231c947f0f724a7d",
+              "file": "editar-tipo-miembro.spec.js",
+              "line": 149,
+              "column": 3
+            },
+            {
+              "title": "CP-AC-10: Naturaleza = Corporación, Voto autorizado = No",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12176,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a editar tipo de miembro ID: 1...\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "📝 Editando tipo de miembro...\n"
+                        },
+                        {
+                          "text": "✅ Naturaleza establecida: Corporación\n"
+                        },
+                        {
+                          "text": "✅ Voto autorizado: No\n"
+                        },
+                        {
+                          "text": "✅ Cambios guardados\n"
+                        },
+                        {
+                          "text": "📍 URL después de guardar: http://localhost:8080/adherents/type.php?rowid=1\n"
+                        },
+                        {
+                          "text": "✅ Redirección a lista de tipos (éxito)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:08:47.018Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "378334f108174283e39b-67f82f4e62503eb6f7f1",
+              "file": "editar-tipo-miembro.spec.js",
+              "line": 161,
+              "column": 3
+            },
+            {
+              "title": "CP-AC-11: Naturaleza = Ambos, Voto autorizado = Sí",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12191,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a editar tipo de miembro ID: 1...\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "📝 Editando tipo de miembro...\n"
+                        },
+                        {
+                          "text": "✅ Naturaleza establecida: Ambos\n"
+                        },
+                        {
+                          "text": "✅ Voto autorizado: Sí\n"
+                        },
+                        {
+                          "text": "✅ Cambios guardados\n"
+                        },
+                        {
+                          "text": "📍 URL después de guardar: http://localhost:8080/adherents/type.php?rowid=1\n"
+                        },
+                        {
+                          "text": "✅ Redirección a lista de tipos (éxito)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:08:59.209Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "378334f108174283e39b-869aead41d4832dd8bf2",
+              "file": "editar-tipo-miembro.spec.js",
+              "line": 173,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Diagnóstico - Editar Tipo de Miembro",
+          "file": "editar-tipo-miembro.spec.js",
+          "line": 190,
+          "column": 6,
+          "specs": [
+            {
+              "title": "DEBUG: Ver estructura del formulario de edición",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8114,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a editar tipo de miembro ID: 1...\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "\n🔍 DEBUG: Información del formulario de tipo de miembro\n"
+                        },
+                        {
+                          "text": "URL: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "Selects: [\n  {\n    \"name\": \"searchselectcombo\",\n    \"id\": \"searchselectcombo\",\n    \"options\": [\n      \"\",\n      \"<span class=\\\"fas fa-user-alt em092 infobox-adherent pictofixedwidth\\\" style=\\\"\\\"></span> Members\",\n      \"<span class=\\\"fas fa-building pictofixedwidth\\\" style=\\\" color: #6c6aa8;\\\"></span> Third parties\",\n      \"<span class=\\\"fas fa-address-book pictofixedwidth\\\" style=\\\" color: #6c6aa8;\\\"></span> Contacts\",\n      \"<span class=\\\"fas fa-cube pictofixedwidth\\\" style=\\\" color: #a69944;\\\"></span> Products or services\",\n      \"<span class=\\\"fas fa-barcode pictofixedwidth\\\" style=\\\" color: #a69944;\\\"></span> Lots / Serials\",\n      \"<span class=\\\"fas fa-cubes pictofixedwidth\\\" style=\\\" color: #a69944;\\\"></span> Manufacturing Orders\",\n      \"<span class=\\\"fas fa-project-diagram em088 infobox-project pictofixedwidth\\\" style=\\\"\\\"></span> Projects\",\n      \"<span class=\\\"fas fa-tasks infobox-project pictofixedwidth\\\" style=\\\"\\\"></span> Tasks\",\n      \"<span class=\\\"fas fa-file-signature infobox-propal pictofixedwidth\\\" style=\\\"\\\"></span> Commercial proposals\",\n      \"<span class=\\\"fas fa-file-invoice infobox-commande pictofixedwidth\\\" style=\\\"\\\"></span> Sales orders\",\n      \"<span class=\\\"fas fa-dolly em092 infobox-commande pictofixedwidth\\\" style=\\\"\\\"></span> Customer shipments\",\n      \"<span class=\\\"fas fa-file-invoice-dollar infobox-commande pictofixedwidth\\\" style=\\\"\\\"></span> Customer invoices\",\n      \"<span class=\\\"fas fa-file-signature infobox-supplier_proposal pictofixedwidth\\\" style=\\\"\\\"></span> Vendor proposals\",\n      \"<span class=\\\"fas fa-dol-order_supplier infobox-order_supplier pictofixedwidth\\\" style=\\\"\\\"></span> Purchase orders\",\n      \"<span class=\\\"fas fa-file-invoice-dollar infobox-order_supplier pictofixedwidth\\\" style=\\\"\\\"></span> Vendor invoices\",\n      \"<span class=\\\"fas fa-suitcase em092 infobox-contrat pictofixedwidth\\\" style=\\\"\\\"></span> Contracts\",\n      \"<span class=\\\"fas fa-ambulance em080 infobox-contrat pictofixedwidth\\\" style=\\\"\\\"></span> Interventions\",\n      \"<span class=\\\"fas fa-ticket-alt infobox-contrat rotate90 pictofixedwidth\\\" style=\\\"\\\"></span> Knowledge base\",\n      \"<span class=\\\"fas fa-ticket-alt infobox-contrat pictofixedwidth\\\" style=\\\"\\\"></span> Tickets\",\n      \"<span class=\\\"fas fa-money-check-alt em080 infobox-bank_account pictofixedwidth\\\" style=\\\"\\\"></span> Customer payments\",\n      \"<span class=\\\"fas fa-money-check-alt em080 infobox-bank_account pictofixedwidth\\\" style=\\\"\\\"></span> Vendor payments\",\n      \"<span class=\\\"fas fa-money-check-alt em080 infobox-bank_account pictofixedwidth\\\" style=\\\"\\\"></span> Miscellaneous payments\",\n      \"<span class=\\\"fas fa-user infobox-adherent pictofixedwidth\\\" style=\\\"\\\"></span> Users\",\n      \"<img src=\\\"/theme/eldy/img/object_trip.png\\\" alt=\\\"\\\" class=\\\"pictofixedwidth\\\"> Expense reports\",\n      \"<span class=\\\"fas fa-umbrella-beach em088 infobox-holiday pictofixedwidth\\\" style=\\\"\\\"></span> Leave\"\n    ]\n  },\n  {\n    \"name\": \"status\",\n    \"id\": \"status\",\n    \"options\": [\n      \"Closed\",\n      \"Open\"\n    ]\n  },\n  {\n    \"name\": \"morphy\",\n    \"id\": \"morphy\",\n    \"options\": [\n      \"Corporation and Individual\",\n      \"Individual\",\n      \"Corporation\"\n    ]\n  },\n  {\n    \"name\": \"subscription\",\n    \"id\": \"subscription\",\n    \"options\": [\n      \"Yes\",\n      \"No\"\n    ]\n  },\n  {\n    \"name\": \"caneditamount\",\n    \"id\": \"caneditamount\",\n    \"options\": [\n      \"Yes\",\n      \"No\"\n    ]\n  },\n  {\n    \"name\": \"vote\",\n    \"id\": \"vote\",\n    \"options\": [\n      \"Yes\",\n      \"No\"\n    ]\n  },\n  {\n    \"name\": \"duration_unit\",\n    \"id\": \"duration_unit\",\n    \"options\": [\n      \"Second\",\n      \"Minute\",\n      \"Hour\",\n      \"Day\",\n      \"Week\",\n      \"Month\",\n      \"Year\"\n    ]\n  },\n  {\n    \"name\": \"\",\n    \"id\": \"\",\n    \"options\": [\n      \"#1 type.php?action=edit&rowid=1 (15:09:17)\"\n    ]\n  }\n]\n"
+                        },
+                        {
+                          "text": "Inputs: [\n  {\n    \"type\": \"hidden\",\n    \"name\": \"token\",\n    \"id\": \"\",\n    \"value\": \"347e77591ff9baac2804711cd1fd1fec\"\n  },\n  {\n    \"type\": \"text\",\n    \"name\": \"bookmark\",\n    \"id\": \"top-bookmark-search-input\",\n    \"value\": \"\"\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"token\",\n    \"id\": \"\",\n    \"value\": \"347e77591ff9baac2804711cd1fd1fec\"\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"rowid\",\n    \"id\": \"\",\n    \"value\": \"1\"\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"action\",\n    \"id\": \"\",\n    \"value\": \"update\"\n  },\n  {\n    \"type\": \"text\",\n    \"name\": \"label\",\n    \"id\": \"\",\n    \"value\": \"Administrador\"\n  },\n  {\n    \"type\": \"text\",\n    \"name\": \"amount\",\n    \"id\": \"\",\n    \"value\": \"\"\n  },\n  {\n    \"type\": \"text\",\n    \"name\": \"duration_value\",\n    \"id\": \"\",\n    \"value\": \"\"\n  },\n  {\n    \"type\": \"submit\",\n    \"name\": \"save\",\n    \"id\": \"\",\n    \"value\": \"Save\"\n  },\n  {\n    \"type\": \"submit\",\n    \"name\": \"cancel\",\n    \"id\": \"\",\n    \"value\": \"Cancel\"\n  },\n  {\n    \"type\": \"text\",\n    \"name\": \"\",\n    \"id\": \"\",\n    \"value\": \"\"\n  },\n  {\n    \"type\": \"text\",\n    \"name\": \"\",\n    \"id\": \"\",\n    \"value\": \"\"\n  }\n]\n"
+                        },
+                        {
+                          "text": "═══════════════════════════════════\n\n"
+                        },
+                        {
+                          "text": "✅ Screenshot guardado: debug-editar-tipo-miembro.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:09:11.424Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "378334f108174283e39b-2537c30999e18f75a4db",
+              "file": "editar-tipo-miembro.spec.js",
+              "line": 202,
+              "column": 3
+            },
+            {
+              "title": "Verificar que existe tipo de miembro ID=1",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8072,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a editar tipo de miembro ID: 1...\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "✅ Tipo de miembro ID=1 existe\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:09:19.550Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "378334f108174283e39b-150ad4dff4083cf4aaaa",
+              "file": "editar-tipo-miembro.spec.js",
+              "line": 215,
+              "column": 3
+            },
+            {
+              "title": "Prueba simple: Cambiar solo el estado",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11738,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a editar tipo de miembro ID: 1...\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "📝 Cambiando estado a Activo...\n"
+                        },
+                        {
+                          "text": "✅ Estado establecido: Activo\n"
+                        },
+                        {
+                          "text": "✅ Cambios guardados\n"
+                        },
+                        {
+                          "text": "📍 URL después de guardar: http://localhost:8080/adherents/type.php?rowid=1\n"
+                        },
+                        {
+                          "text": "✅ Redirección a lista de tipos (éxito)\n"
+                        },
+                        {
+                          "text": "🔍 ¿Edición exitosa?: true\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:09:27.642Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "378334f108174283e39b-eb02add203865696938e",
+              "file": "editar-tipo-miembro.spec.js",
+              "line": 234,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Pruebas Combinadas - Configuraciones Complejas",
+          "file": "editar-tipo-miembro.spec.js",
+          "line": 258,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Configuración completa: Miembro activo con cotización",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12219,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a editar tipo de miembro ID: 1...\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "📝 Editando tipo de miembro...\n"
+                        },
+                        {
+                          "text": "✅ Estado establecido: Activo\n"
+                        },
+                        {
+                          "text": "✅ Naturaleza establecida: Individual\n"
+                        },
+                        {
+                          "text": "✅ Sujeto a cotización: Sí\n"
+                        },
+                        {
+                          "text": "✅ Puede editar importe: No\n"
+                        },
+                        {
+                          "text": "✅ Importe establecido: 100000\n"
+                        },
+                        {
+                          "text": "✅ Tipo de duración: y\n"
+                        },
+                        {
+                          "text": "✅ Valor de duración: 1\n"
+                        },
+                        {
+                          "text": "✅ Voto autorizado: Sí\n"
+                        },
+                        {
+                          "text": "✅ Cambios guardados\n"
+                        },
+                        {
+                          "text": "📍 URL después de guardar: http://localhost:8080/adherents/type.php?rowid=1\n"
+                        },
+                        {
+                          "text": "✅ Redirección a lista de tipos (éxito)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:09:39.399Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "378334f108174283e39b-81bc1684695340b9376d",
+              "file": "editar-tipo-miembro.spec.js",
+              "line": 271,
+              "column": 3
+            },
+            {
+              "title": "Configuración completa: Miembro corporativo sin cotización",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12405,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a editar tipo de miembro ID: 1...\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "📝 Editando tipo de miembro...\n"
+                        },
+                        {
+                          "text": "✅ Estado establecido: Activo\n"
+                        },
+                        {
+                          "text": "✅ Naturaleza establecida: Corporación\n"
+                        },
+                        {
+                          "text": "✅ Sujeto a cotización: No\n"
+                        },
+                        {
+                          "text": "✅ Voto autorizado: No\n"
+                        },
+                        {
+                          "text": "✅ Cambios guardados\n"
+                        },
+                        {
+                          "text": "📍 URL después de guardar: http://localhost:8080/adherents/type.php?rowid=1\n"
+                        },
+                        {
+                          "text": "✅ Redirección a lista de tipos (éxito)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:09:51.637Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "378334f108174283e39b-044e9dc6def6495e30bb",
+              "file": "editar-tipo-miembro.spec.js",
+              "line": 289,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "login.spec.js",
+      "file": "login.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login - Dolibarr 19.0.2",
+          "file": "login.spec.js",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "DIAGNÓSTICO: Ver estructura del formulario",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2022,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n🔍 DEBUG: Información del formulario (Dolibarr 19.0.2)\n"
+                        },
+                        {
+                          "text": "URL: http://localhost:8080/\n"
+                        },
+                        {
+                          "text": "Título: Login @ 19.0.2\n"
+                        },
+                        {
+                          "text": "Formularios: [\n  {\n    \"id\": \"login\",\n    \"action\": \"http://localhost:8080/index.php?mainmenu=home\",\n    \"method\": \"post\"\n  }\n]\n"
+                        },
+                        {
+                          "text": "Inputs: [\n  {\n    \"type\": \"hidden\",\n    \"name\": \"token\",\n    \"id\": \"\",\n    \"visible\": false\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"actionlogin\",\n    \"id\": \"\",\n    \"visible\": false\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"loginfunction\",\n    \"id\": \"\",\n    \"visible\": false\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"backtopage\",\n    \"id\": \"\",\n    \"visible\": false\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"tz\",\n    \"id\": \"tz\",\n    \"visible\": false\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"tz_string\",\n    \"id\": \"tz_string\",\n    \"visible\": false\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"dst_observed\",\n    \"id\": \"dst_observed\",\n    \"visible\": false\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"dst_first\",\n    \"id\": \"dst_first\",\n    \"visible\": false\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"dst_second\",\n    \"id\": \"dst_second\",\n    \"visible\": false\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"screenwidth\",\n    \"id\": \"screenwidth\",\n    \"visible\": false\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"screenheight\",\n    \"id\": \"screenheight\",\n    \"visible\": false\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"dol_hide_topmenu\",\n    \"id\": \"dol_hide_topmenu\",\n    \"visible\": false\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"dol_hide_leftmenu\",\n    \"id\": \"dol_hide_leftmenu\",\n    \"visible\": false\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"dol_optimize_smallscreen\",\n    \"id\": \"dol_optimize_smallscreen\",\n    \"visible\": false\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"dol_no_mouse_hover\",\n    \"id\": \"dol_no_mouse_hover\",\n    \"visible\": false\n  },\n  {\n    \"type\": \"hidden\",\n    \"name\": \"dol_use_jmobile\",\n    \"id\": \"dol_use_jmobile\",\n    \"visible\": false\n  },\n  {\n    \"type\": \"text\",\n    \"name\": \"username\",\n    \"id\": \"username\",\n    \"visible\": true\n  },\n  {\n    \"type\": \"password\",\n    \"name\": \"password\",\n    \"id\": \"password\",\n    \"visible\": true\n  },\n  {\n    \"type\": \"submit\",\n    \"name\": \"\",\n    \"id\": \"\",\n    \"visible\": true\n  }\n]\n"
+                        },
+                        {
+                          "text": "Botones: [\n  {\n    \"type\": \"submit\",\n    \"name\": \"\",\n    \"id\": \"\",\n    \"value\": \"  Login  \",\n    \"text\": \"\"\n  }\n]\n"
+                        },
+                        {
+                          "text": "═══════════════════════════════════\n\n"
+                        },
+                        {
+                          "text": "✅ Screenshot guardado: dolibarr-19-login-page.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:10:04.089Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "badc1754af1944f68b2b-526e844b05a3e9b9558f",
+              "file": "login.spec.js",
+              "line": 21,
+              "column": 3
+            },
+            {
+              "title": "CP-L01: Login exitoso con credenciales válidas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6220,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:10:06.128Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "badc1754af1944f68b2b-9f13eed7127b995f57c4",
+              "file": "login.spec.js",
+              "line": 37,
+              "column": 3
+            },
+            {
+              "title": "CP-L01-ALT: Login con método alternativo",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3374,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "📍 URL después de login: http://localhost:8080/index.php?mainmenu=home\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:10:12.359Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "badc1754af1944f68b2b-2b089e81793481a372f6",
+              "file": "login.spec.js",
+              "line": 61,
+              "column": 3
+            },
+            {
+              "title": "CP-L01-URL: Login esperando cambio de URL",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2724,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "📍 URL inicial: http://localhost:8080/\n"
+                        },
+                        {
+                          "text": "📍 URL nueva: http://localhost:8080/index.php?mainmenu=home\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:10:15.746Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "badc1754af1944f68b2b-b1736642e3f746f2620c",
+              "file": "login.spec.js",
+              "line": 87,
+              "column": 3
+            },
+            {
+              "title": "CP-L02: Usuario no registrado",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 18550,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "❌ Login fallido - no se detectaron indicadores de éxito\n"
+                        },
+                        {
+                          "text": "📝 Mensaje de error: Bad value for login or password\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:10:18.483Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "badc1754af1944f68b2b-bfb05a54a9838917b7e9",
+              "file": "login.spec.js",
+              "line": 116,
+              "column": 3
+            },
+            {
+              "title": "CP-L05: Contraseña incorrecta",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 18573,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "❌ Login fallido - no se detectaron indicadores de éxito\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:10:37.047Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "badc1754af1944f68b2b-cf1e3b6fd55e78325152",
+              "file": "login.spec.js",
+              "line": 129,
+              "column": 3
+            },
+            {
+              "title": "CP-L03: Campo usuario vacío",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5389,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at /home/juanes/Descargas/prueba/tests/login.spec.js:141:22",
+                        "location": {
+                          "file": "/home/juanes/Descargas/prueba/tests/login.spec.js",
+                          "column": 22,
+                          "line": 141
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 139 |\u001b[39m     \u001b[90m// Verificar validación HTML5\u001b[39m\n \u001b[90m 140 |\u001b[39m     \u001b[36mconst\u001b[39m hasError \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39mhasValidationError()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 141 |\u001b[39m     expect(hasError)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 142 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 143 |\u001b[39m\n \u001b[90m 144 |\u001b[39m   test(\u001b[32m'CP-L06: Campo contraseña vacío'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/juanes/Descargas/prueba/tests/login.spec.js",
+                            "column": 22,
+                            "line": 141
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m 139 |\u001b[39m     \u001b[90m// Verificar validación HTML5\u001b[39m\n \u001b[90m 140 |\u001b[39m     \u001b[36mconst\u001b[39m hasError \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39mhasValidationError()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 141 |\u001b[39m     expect(hasError)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 142 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 143 |\u001b[39m\n \u001b[90m 144 |\u001b[39m   test(\u001b[32m'CP-L06: Campo contraseña vacío'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /home/juanes/Descargas/prueba/tests/login.spec.js:141:22\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:10:55.638Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/juanes/Descargas/prueba/test-results/login-Login---Dolibarr-19-0-2-CP-L03-Campo-usuario-vacío-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/juanes/Descargas/prueba/test-results/login-Login---Dolibarr-19-0-2-CP-L03-Campo-usuario-vacío-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/juanes/Descargas/prueba/test-results/login-Login---Dolibarr-19-0-2-CP-L03-Campo-usuario-vacío-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/juanes/Descargas/prueba/tests/login.spec.js",
+                        "column": 22,
+                        "line": 141
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "badc1754af1944f68b2b-3da6ee4e0b5e16bdfe9c",
+              "file": "login.spec.js",
+              "line": 136,
+              "column": 3
+            },
+            {
+              "title": "CP-L06: Campo contraseña vacío",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 6705,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at /home/juanes/Descargas/prueba/tests/login.spec.js:148:22",
+                        "location": {
+                          "file": "/home/juanes/Descargas/prueba/tests/login.spec.js",
+                          "column": 22,
+                          "line": 148
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 146 |\u001b[39m     \n \u001b[90m 147 |\u001b[39m     \u001b[36mconst\u001b[39m hasError \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39mhasValidationError()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 148 |\u001b[39m     expect(hasError)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 149 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 150 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 151 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/juanes/Descargas/prueba/tests/login.spec.js",
+                            "column": 22,
+                            "line": 148
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m 146 |\u001b[39m     \n \u001b[90m 147 |\u001b[39m     \u001b[36mconst\u001b[39m hasError \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39mhasValidationError()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 148 |\u001b[39m     expect(hasError)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 149 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 150 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 151 |\u001b[39m\u001b[0m\n\u001b[2m    at /home/juanes/Descargas/prueba/tests/login.spec.js:148:22\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:11:01.669Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/juanes/Descargas/prueba/test-results/login-Login---Dolibarr-19-0-2-CP-L06-Campo-contraseña-vacío-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/juanes/Descargas/prueba/test-results/login-Login---Dolibarr-19-0-2-CP-L06-Campo-contraseña-vacío-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/juanes/Descargas/prueba/test-results/login-Login---Dolibarr-19-0-2-CP-L06-Campo-contraseña-vacío-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/juanes/Descargas/prueba/tests/login.spec.js",
+                        "column": 22,
+                        "line": 148
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "badc1754af1944f68b2b-cec04105e1310eb2fd79",
+              "file": "login.spec.js",
+              "line": 144,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Login Simple - Sin Page Object",
+          "file": "login.spec.js",
+          "line": 156,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Login directo y verificación",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4263,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "📍 Página de login cargada\n"
+                        },
+                        {
+                          "text": "✅ Usuario ingresado\n"
+                        },
+                        {
+                          "text": "✅ Contraseña ingresada\n"
+                        },
+                        {
+                          "text": "✅ Click en login\n"
+                        },
+                        {
+                          "text": "📍 URL final: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "🔍 ¿Tiene formulario de login?: \u001b[33mfalse\u001b[39m\n"
+                        },
+                        {
+                          "text": "🔍 ¿Tiene menú de usuario?: \u001b[33mtrue\u001b[39m\n"
+                        },
+                        {
+                          "text": "🔍 ¿URL cambió?: \u001b[33mtrue\u001b[39m\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:11:09.314Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "badc1754af1944f68b2b-b65e7af3d2fdb37c6b34",
+              "file": "login.spec.js",
+              "line": 158,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "navigation.spec.js",
+      "file": "navigation.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Navegación en Dolibarr 19.0.2",
+          "file": "navigation.spec.js",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "NAV-01: Navegar al módulo de Members",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10381,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso\n"
+                        },
+                        {
+                          "text": "\n🔄 Iniciando navegación a Members...\n"
+                        },
+                        {
+                          "text": "🔄 Navegando al módulo de Members...\n"
+                        },
+                        {
+                          "text": "✅ Click en menú Members con: a[href*=\"adherents/index.php\"]\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/index.php?mainmenu=members&leftmenu=\n"
+                        },
+                        {
+                          "text": "✅ Click en New Member con: a:has-text(\"New member\")\n"
+                        },
+                        {
+                          "text": "📍 URL formulario: http://localhost:8080/adherents/card.php?leftmenu=members&action=create\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/adherents/card.php?leftmenu=members&action=create\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:11:13.874Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ce7c070a851ea64285fd-a694ae6790120c9f4ba5",
+              "file": "navigation.spec.js",
+              "line": 31,
+              "column": 3
+            },
+            {
+              "title": "NAV-02: Navegar por URL directa a Members",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7138,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso\n"
+                        },
+                        {
+                          "text": "\n🔄 Navegando por URL directa...\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/adherents/card.php?action=create&mainmenu=members\n"
+                        },
+                        {
+                          "text": "🔍 ¿Tiene formulario?: \u001b[33mtrue\u001b[39m\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:11:24.274Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ce7c070a851ea64285fd-08126db03aaa8b3d2f19",
+              "file": "navigation.spec.js",
+              "line": 52,
+              "column": 3
+            },
+            {
+              "title": "NAV-03: Navegar al módulo de Third Parties",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8504,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso\n"
+                        },
+                        {
+                          "text": "\n🔄 Iniciando navegación a Third Parties...\n"
+                        },
+                        {
+                          "text": "🔄 Navegando a crear tercero...\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "📍 URL actual: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:11:31.430Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ce7c070a851ea64285fd-6d00b82c2fb42cda6937",
+              "file": "navigation.spec.js",
+              "line": 74,
+              "column": 3
+            },
+            {
+              "title": "NAV-04: Navegar por URL directa a Third Parties",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7269,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso\n"
+                        },
+                        {
+                          "text": "\n🔄 Navegando por URL directa...\n"
+                        },
+                        {
+                          "text": "📍 URL: http://localhost:8080/societe/card.php?action=create&mainmenu=companies\n"
+                        },
+                        {
+                          "text": "🔍 ¿Tiene formulario?: \u001b[33mtrue\u001b[39m\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:11:39.950Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ce7c070a851ea64285fd-42a7811f054ec50d503b",
+              "file": "navigation.spec.js",
+              "line": 92,
+              "column": 3
+            },
+            {
+              "title": "DEBUG: Mostrar todos los menús disponibles",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6395,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso\n"
+                        },
+                        {
+                          "text": "\n🔍 DEBUG: Analizando menús del sistema...\n"
+                        },
+                        {
+                          "text": "\n📋 Menús encontrados:\n"
+                        },
+                        {
+                          "text": "2. Home\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/index.php?mainmenu=home&leftmenu=home\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "3. Members\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/adherents/index.php?mainmenu=members&leftmenu=\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "4. Third-parties\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/societe/index.php?mainmenu=companies&leftmenu=\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "5. Products | Services\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/product/index.php?mainmenu=products&leftmenu=\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "6. MRP\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/mrp/index.php?mainmenu=mrp&leftmenu=\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "7. Projects\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/projet/index.php?mainmenu=project&leftmenu=\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "8. Commerce\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/comm/index.php?mainmenu=commercial&leftmenu=\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "9. Billing | Payment\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/compta/index.php?mainmenu=billing&leftmenu=\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "10. Banks | Cash\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/compta/bank/list.php?mainmenu=bank&leftmenu=\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "11. Accounting\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/accountancy/index.php?mainmenu=accountancy&leftmenu=\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "12. HRM\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/hrm/index.php?mainmenu=hrm&leftmenu=\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "13. Documents\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/ecm/index.php?idmenu=38&mainmenu=ecm&leftmenu=\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "14. Agenda\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/comm/action/index.php?idmenu=16&mainmenu=agenda&leftmenu=\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "15. Tickets\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/ticket/index.php?mainmenu=ticket&leftmenu=\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "16. Tools\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/core/tools.php?mainmenu=tools&leftmenu=\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "17. Websites\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/website/index.php?idmenu=49&mainmenu=website&leftmenu=\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "18. ExternalSite\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/externalsite/frames.php?idmenu=58&mainmenu=externalsite&leftmenu=\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "19. POS\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/takepos/index.php?idmenu=50&mainmenu=takepos&leftmenu=\n"
+                        },
+                        {
+                          "text": "   ID: \n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:11:47.237Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ce7c070a851ea64285fd-d138b021c98e47da0092",
+              "file": "navigation.spec.js",
+              "line": 113,
+              "column": 3
+            },
+            {
+              "title": "DEBUG: Buscar botones de \"New\" en Members",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7140,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso\n"
+                        },
+                        {
+                          "text": "\n🔍 Buscando botones de creación...\n"
+                        },
+                        {
+                          "text": "\n📋 Botones encontrados:\n"
+                        },
+                        {
+                          "text": "1. Texto: \"Add current page to bookmarks\"\n"
+                        },
+                        {
+                          "text": "   URL: http://localhost:8080/bookmarks/card.php?action=create&url=%2Fadherents%2Findex.php%3Fmainmenu%3Dmembers\n"
+                        },
+                        {
+                          "text": "   Visible: false\n"
+                        },
+                        {
+                          "text": "\n"
+                        },
+                        {
+                          "text": "✅ Login exitoso (detectado: .login_block_user)\n"
+                        },
+                        {
+                          "text": "⚠️ No se encontró botón de logout visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:11:53.650Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ce7c070a851ea64285fd-e2678bad5708f0432540",
+              "file": "navigation.spec.js",
+              "line": 148,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "quick-debug.spec.js",
+      "file": "quick-debug.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "🔍 Diagnóstico Rápido de Selectores",
+          "file": "quick-debug.spec.js",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "DEBUG Miembros: Ver estructura del formulario",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9077,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "\n📍 URL: http://localhost:8080/adherents/card.php?action=create\n"
+                        },
+                        {
+                          "text": "\n📋 FORMULARIO DE MIEMBROS\n"
+                        },
+                        {
+                          "text": "═══════════════════════════════════\n"
+                        },
+                        {
+                          "text": "\n🔽 Selects:\n"
+                        },
+                        {
+                          "text": "[\n  {\n    \"name\": \"searchselectcombo\",\n    \"id\": \"searchselectcombo\",\n    \"options\": [\n      \"\",\n      \"<span class=\\\"fas fa-user-alt em092 infobox-adherent pictofixedwidth\\\" style=\\\"\\\"></span> Members\",\n      \"<span class=\\\"fas fa-building pictofixedwidth\\\" style=\\\" color: #6c6aa8;\\\"></span> Third parties\"\n    ]\n  },\n  {\n    \"name\": \"typeid\",\n    \"id\": \"typeid\",\n    \"options\": [\n      \"Administrador\"\n    ]\n  },\n  {\n    \"name\": \"morphy\",\n    \"id\": \"morphy\",\n    \"options\": [\n      \" \",\n      \"Individual\",\n      \"Corporation\"\n    ]\n  },\n  {\n    \"name\": \"civility_id\",\n    \"id\": \"civility_id\",\n    \"options\": [\n      \" \",\n      \"Mrs.\",\n      \"Mr.\"\n    ]\n  },\n  {\n    \"name\": \"gender\",\n    \"id\": \"gender\",\n    \"options\": [\n      \" \",\n      \"Male\",\n      \"Female\"\n    ]\n  },\n  {\n    \"name\": \"country_id\",\n    \"id\": \"selectcountry_id\",\n    \"options\": [\n      \" \",\n      \"Afghanistan (AF)\",\n      \"Åland Islands (AX)\"\n    ]\n  },\n  {\n    \"name\": \"state_id\",\n    \"id\": \"state_id\",\n    \"options\": [\n      \" \",\n      \"AMA - Amazonas\",\n      \"ANT - Antioquia\"\n    ]\n  },\n  {\n    \"name\": \"public\",\n    \"id\": \"public\",\n    \"options\": [\n      \"Yes\",\n      \"No\"\n    ]\n  },\n  {\n    \"name\": \"memcats[]\",\n    \"id\": \"memcats\",\n    \"options\": []\n  },\n  {\n    \"name\": \"\",\n    \"id\": \"\",\n    \"options\": [\n      \"#1 card.php?action=create (15:12:06)\"\n    ]\n  }\n]\n"
+                        },
+                        {
+                          "text": "\n🔘 Radio Buttons:\n"
+                        },
+                        {
+                          "text": "[]\n"
+                        },
+                        {
+                          "text": "\n📝 Text Inputs:\n"
+                        },
+                        {
+                          "text": "[\n  {\n    \"name\": \"societe\",\n    \"id\": \"\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"lastname\",\n    \"id\": \"\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"firstname\",\n    \"id\": \"\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"member_email\",\n    \"id\": \"\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"member_url\",\n    \"id\": \"member_url\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"zipcode\",\n    \"id\": \"zipcode\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"town\",\n    \"id\": \"town\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"phone\",\n    \"id\": \"\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"phone_perso\",\n    \"id\": \"\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"phone_mobile\",\n    \"id\": \"\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"birth\",\n    \"id\": \"birth\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"\",\n    \"id\": \"\",\n    \"placeholder\": \"Search\"\n  },\n  {\n    \"name\": \"\",\n    \"id\": \"\",\n    \"placeholder\": \"Search\"\n  }\n]\n"
+                        },
+                        {
+                          "text": "\n🔵 Botones:\n"
+                        },
+                        {
+                          "text": "[\n  {\n    \"name\": \"save\",\n    \"id\": \"\",\n    \"value\": \"Create member\",\n    \"text\": \"\"\n  },\n  {\n    \"name\": \"cancel\",\n    \"id\": \"\",\n    \"value\": \"Cancel\",\n    \"text\": \"\"\n  }\n]\n"
+                        },
+                        {
+                          "text": "\n✅ Screenshot: debug-miembros-form.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:12:00.822Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ed4a3496187aa51bf9d6-f414f16f5dd9c74b02ab",
+              "file": "quick-debug.spec.js",
+              "line": 8,
+              "column": 3
+            },
+            {
+              "title": "DEBUG Terceros: Ver estructura del formulario",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9175,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "\n📍 URL: http://localhost:8080/societe/card.php?action=create\n"
+                        },
+                        {
+                          "text": "\n📋 FORMULARIO DE TERCEROS\n"
+                        },
+                        {
+                          "text": "═══════════════════════════════════\n"
+                        },
+                        {
+                          "text": "\n📝 Text Inputs:\n"
+                        },
+                        {
+                          "text": "[\n  {\n    \"name\": \"name\",\n    \"id\": \"name\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"name_alias\",\n    \"id\": \"name_alias_input\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"customer_code\",\n    \"id\": \"customer_code\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"supplier_code\",\n    \"id\": \"supplier_code\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"barcode\",\n    \"id\": \"barcode\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"zipcode\",\n    \"id\": \"zipcode\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"town\",\n    \"id\": \"town\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"phone\",\n    \"id\": \"phone\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"fax\",\n    \"id\": \"fax\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"email\",\n    \"id\": \"email\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"url\",\n    \"id\": \"url\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"facebook\",\n    \"id\": \"facebook\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"instagram\",\n    \"id\": \"instagram\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"linkedin\",\n    \"id\": \"linkedin\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"snapchat\",\n    \"id\": \"snapchat\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"skype\",\n    \"id\": \"skype\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"twitter\",\n    \"id\": \"twitter\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"whatsapp\",\n    \"id\": \"whatsapp\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"youtube\",\n    \"id\": \"youtube\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"idprof1\",\n    \"id\": \"idprof1\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"tva_intra\",\n    \"id\": \"intra_vat\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"capital\",\n    \"id\": \"capital\",\n    \"placeholder\": \"\"\n  },\n  {\n    \"name\": \"\",\n    \"id\": \"\",\n    \"placeholder\": \"Search\"\n  },\n  {\n    \"name\": \"\",\n    \"id\": \"\",\n    \"placeholder\": \"Search\"\n  }\n]\n"
+                        },
+                        {
+                          "text": "\n🔘 Radio Buttons:\n"
+                        },
+                        {
+                          "text": "[]\n"
+                        },
+                        {
+                          "text": "\n☑️  Checkboxes:\n"
+                        },
+                        {
+                          "text": "[\n  {\n    \"name\": \"assujtva_value\",\n    \"value\": \"1\",\n    \"id\": \"assujtva_value\",\n    \"checked\": true\n  }\n]\n"
+                        },
+                        {
+                          "text": "\n🔵 Botones:\n"
+                        },
+                        {
+                          "text": "[\n  {\n    \"name\": \"save\",\n    \"id\": \"\",\n    \"value\": \"Create third party\"\n  },\n  {\n    \"name\": \"cancel\",\n    \"id\": \"\",\n    \"value\": \"Cancel\"\n  }\n]\n"
+                        },
+                        {
+                          "text": "\n✅ Screenshot: debug-terceros-form.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:12:09.912Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ed4a3496187aa51bf9d6-2dd291965c259aac7fd2",
+              "file": "quick-debug.spec.js",
+              "line": 64,
+              "column": 3
+            },
+            {
+              "title": "DEBUG Tipo Miembro: Ver estructura del formulario",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9101,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "\n📍 URL: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "\n📋 FORMULARIO DE TIPO DE MIEMBRO\n"
+                        },
+                        {
+                          "text": "═══════════════════════════════════\n"
+                        },
+                        {
+                          "text": "\n📍 URL: http://localhost:8080/adherents/type.php?action=edit&rowid=1\n"
+                        },
+                        {
+                          "text": "📄 Título: Members type setup\n"
+                        },
+                        {
+                          "text": "📋 ¿Tiene formulario?: \u001b[33mtrue\u001b[39m\n"
+                        },
+                        {
+                          "text": "\n🔽 Selects:\n"
+                        },
+                        {
+                          "text": "[\n  {\n    \"name\": \"searchselectcombo\",\n    \"id\": \"searchselectcombo\",\n    \"options\": [\n      {\n        \"value\": \"\",\n        \"text\": \"\"\n      },\n      {\n        \"value\": \"searchintomember\",\n        \"text\": \"<span class=\\\"fas fa-user-alt em092 infobox-adherent pictofixedwidth\\\" style=\\\"\\\"></span> Members\"\n      },\n      {\n        \"value\": \"searchintothirdparty\",\n        \"text\": \"<span class=\\\"fas fa-building pictofixedwidth\\\" style=\\\" color: #6c6aa8;\\\"></span> Third parties\"\n      },\n      {\n        \"value\": \"searchintocontact\",\n        \"text\": \"<span class=\\\"fas fa-address-book pictofixedwidth\\\" style=\\\" color: #6c6aa8;\\\"></span> Contacts\"\n      },\n      {\n        \"value\": \"searchintoproduct\",\n        \"text\": \"<span class=\\\"fas fa-cube pictofixedwidth\\\" style=\\\" color: #a69944;\\\"></span> Products or services\"\n      },\n      {\n        \"value\": \"searchintobatch\",\n        \"text\": \"<span class=\\\"fas fa-barcode pictofixedwidth\\\" style=\\\" color: #a69944;\\\"></span> Lots / Serials\"\n      },\n      {\n        \"value\": \"searchintomo\",\n        \"text\": \"<span class=\\\"fas fa-cubes pictofixedwidth\\\" style=\\\" color: #a69944;\\\"></span> Manufacturing Orders\"\n      },\n      {\n        \"value\": \"searchintoprojects\",\n        \"text\": \"<span class=\\\"fas fa-project-diagram em088 infobox-project pictofixedwidth\\\" style=\\\"\\\"></span> Projects\"\n      },\n      {\n        \"value\": \"searchintotasks\",\n        \"text\": \"<span class=\\\"fas fa-tasks infobox-project pictofixedwidth\\\" style=\\\"\\\"></span> Tasks\"\n      },\n      {\n        \"value\": \"searchintopropal\",\n        \"text\": \"<span class=\\\"fas fa-file-signature infobox-propal pictofixedwidth\\\" style=\\\"\\\"></span> Commercial proposals\"\n      },\n      {\n        \"value\": \"searchintoorder\",\n        \"text\": \"<span class=\\\"fas fa-file-invoice infobox-commande pictofixedwidth\\\" style=\\\"\\\"></span> Sales orders\"\n      },\n      {\n        \"value\": \"searchintoshipment\",\n        \"text\": \"<span class=\\\"fas fa-dolly em092 infobox-commande pictofixedwidth\\\" style=\\\"\\\"></span> Customer shipments\"\n      },\n      {\n        \"value\": \"searchintoinvoice\",\n        \"text\": \"<span class=\\\"fas fa-file-invoice-dollar infobox-commande pictofixedwidth\\\" style=\\\"\\\"></span> Customer invoices\"\n      },\n      {\n        \"value\": \"searchintosupplierpropal\",\n        \"text\": \"<span class=\\\"fas fa-file-signature infobox-supplier_proposal pictofixedwidth\\\" style=\\\"\\\"></span> Vendor proposals\"\n      },\n      {\n        \"value\": \"searchintosupplierorder\",\n        \"text\": \"<span class=\\\"fas fa-dol-order_supplier infobox-order_supplier pictofixedwidth\\\" style=\\\"\\\"></span> Purchase orders\"\n      },\n      {\n        \"value\": \"searchintosupplierinvoice\",\n        \"text\": \"<span class=\\\"fas fa-file-invoice-dollar infobox-order_supplier pictofixedwidth\\\" style=\\\"\\\"></span> Vendor invoices\"\n      },\n      {\n        \"value\": \"searchintocontract\",\n        \"text\": \"<span class=\\\"fas fa-suitcase em092 infobox-contrat pictofixedwidth\\\" style=\\\"\\\"></span> Contracts\"\n      },\n      {\n        \"value\": \"searchintointervention\",\n        \"text\": \"<span class=\\\"fas fa-ambulance em080 infobox-contrat pictofixedwidth\\\" style=\\\"\\\"></span> Interventions\"\n      },\n      {\n        \"value\": \"searchintoknowledgemanagement\",\n        \"text\": \"<span class=\\\"fas fa-ticket-alt infobox-contrat rotate90 pictofixedwidth\\\" style=\\\"\\\"></span> Knowledge base\"\n      },\n      {\n        \"value\": \"searchintotickets\",\n        \"text\": \"<span class=\\\"fas fa-ticket-alt infobox-contrat pictofixedwidth\\\" style=\\\"\\\"></span> Tickets\"\n      },\n      {\n        \"value\": \"searchintocustomerpayments\",\n        \"text\": \"<span class=\\\"fas fa-money-check-alt em080 infobox-bank_account pictofixedwidth\\\" style=\\\"\\\"></span> Customer payments\"\n      },\n      {\n        \"value\": \"searchintovendorpayments\",\n        \"text\": \"<span class=\\\"fas fa-money-check-alt em080 infobox-bank_account pictofixedwidth\\\" style=\\\"\\\"></span> Vendor payments\"\n      },\n      {\n        \"value\": \"searchintomiscpayments\",\n        \"text\": \"<span class=\\\"fas fa-money-check-alt em080 infobox-bank_account pictofixedwidth\\\" style=\\\"\\\"></span> Miscellaneous payments\"\n      },\n      {\n        \"value\": \"searchintouser\",\n        \"text\": \"<span class=\\\"fas fa-user infobox-adherent pictofixedwidth\\\" style=\\\"\\\"></span> Users\"\n      },\n      {\n        \"value\": \"searchintoexpensereport\",\n        \"text\": \"<img src=\\\"/theme/eldy/img/object_trip.png\\\" alt=\\\"\\\" class=\\\"pictofixedwidth\\\"> Expense reports\"\n      },\n      {\n        \"value\": \"searchintoleaves\",\n        \"text\": \"<span class=\\\"fas fa-umbrella-beach em088 infobox-holiday pictofixedwidth\\\" style=\\\"\\\"></span> Leave\"\n      }\n    ]\n  },\n  {\n    \"name\": \"status\",\n    \"id\": \"status\",\n    \"options\": [\n      {\n        \"value\": \"0\",\n        \"text\": \"Closed\"\n      },\n      {\n        \"value\": \"1\",\n        \"text\": \"Open\"\n      }\n    ]\n  },\n  {\n    \"name\": \"morphy\",\n    \"id\": \"morphy\",\n    \"options\": [\n      {\n        \"value\": \"\",\n        \"text\": \"Corporation and Individual\"\n      },\n      {\n        \"value\": \"phy\",\n        \"text\": \"Individual\"\n      },\n      {\n        \"value\": \"mor\",\n        \"text\": \"Corporation\"\n      }\n    ]\n  },\n  {\n    \"name\": \"subscription\",\n    \"id\": \"subscription\",\n    \"options\": [\n      {\n        \"value\": \"1\",\n        \"text\": \"Yes\"\n      },\n      {\n        \"value\": \"0\",\n        \"text\": \"No\"\n      }\n    ]\n  },\n  {\n    \"name\": \"caneditamount\",\n    \"id\": \"caneditamount\",\n    \"options\": [\n      {\n        \"value\": \"1\",\n        \"text\": \"Yes\"\n      },\n      {\n        \"value\": \"0\",\n        \"text\": \"No\"\n      }\n    ]\n  },\n  {\n    \"name\": \"vote\",\n    \"id\": \"vote\",\n    \"options\": [\n      {\n        \"value\": \"1\",\n        \"text\": \"Yes\"\n      },\n      {\n        \"value\": \"0\",\n        \"text\": \"No\"\n      }\n    ]\n  },\n  {\n    \"name\": \"duration_unit\",\n    \"id\": \"duration_unit\",\n    \"options\": [\n      {\n        \"value\": \"s\",\n        \"text\": \"Second\"\n      },\n      {\n        \"value\": \"i\",\n        \"text\": \"Minute\"\n      },\n      {\n        \"value\": \"h\",\n        \"text\": \"Hour\"\n      },\n      {\n        \"value\": \"d\",\n        \"text\": \"Day\"\n      },\n      {\n        \"value\": \"w\",\n        \"text\": \"Week\"\n      },\n      {\n        \"value\": \"m\",\n        \"text\": \"Month\"\n      },\n      {\n        \"value\": \"y\",\n        \"text\": \"Year\"\n      }\n    ]\n  },\n  {\n    \"name\": \"\",\n    \"id\": \"\",\n    \"options\": [\n      {\n        \"value\": \"X8aed17f1f1182d100b50242cae0b795b\",\n        \"text\": \"#1 type.php?action=edit&rowid=1 (15:12:25)\"\n      }\n    ]\n  }\n]\n"
+                        },
+                        {
+                          "text": "\n🔘 Radio Buttons:\n"
+                        },
+                        {
+                          "text": "[]\n"
+                        },
+                        {
+                          "text": "\n📝 Text Inputs:\n"
+                        },
+                        {
+                          "text": "[\n  {\n    \"name\": \"label\",\n    \"id\": \"\",\n    \"type\": \"text\"\n  },\n  {\n    \"name\": \"\",\n    \"id\": \"\",\n    \"type\": \"text\"\n  },\n  {\n    \"name\": \"\",\n    \"id\": \"\",\n    \"type\": \"text\"\n  }\n]\n"
+                        },
+                        {
+                          "text": "\n✅ Screenshot: debug-tipo-miembro-form.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:12:19.100Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ed4a3496187aa51bf9d6-59b5079831f0acb2f9b8",
+              "file": "quick-debug.spec.js",
+              "line": 119,
+              "column": 3
+            },
+            {
+              "title": "DEBUG: Probar creación simple de miembro",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9103,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔐 Iniciando login en Dolibarr 19.0.2...\n"
+                        },
+                        {
+                          "text": "✅ Selectores encontrados:\n"
+                        },
+                        {
+                          "text": "   Usuario: #username\n"
+                        },
+                        {
+                          "text": "   Contraseña: #password\n"
+                        },
+                        {
+                          "text": "   Botón: input.button[type=\"submit\"]\n"
+                        },
+                        {
+                          "text": "✅ Credenciales ingresadas\n"
+                        },
+                        {
+                          "text": "✅ Login ejecutado. URL actual: http://localhost:8080/index.php?mainmenu=home\n"
+                        },
+                        {
+                          "text": "\n🧪 Intentando llenar formulario...\n"
+                        },
+                        {
+                          "text": "📝 Campos de nombre encontrados: 1\n"
+                        },
+                        {
+                          "text": "✅ Nombre llenado\n"
+                        },
+                        {
+                          "text": "📝 Campos de apellido encontrados: 1\n"
+                        },
+                        {
+                          "text": "✅ Apellido llenado\n"
+                        },
+                        {
+                          "text": "\n✅ Screenshot: debug-form-filled.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-17T15:12:28.219Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ed4a3496187aa51bf9d6-0b8522375f4fdc6ad0a3",
+              "file": "quick-debug.spec.js",
+              "line": 171,
+              "column": 3
+            }
+          ]
+        }
+      ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-12-17T14:26:33.610Z",
-    "duration": 170872.19499999998,
-    "expected": 5,
+    "startTime": "2025-12-17T15:01:43.728Z",
+    "duration": 653684.146,
+    "expected": 49,
     "skipped": 0,
-    "unexpected": 3,
+    "unexpected": 5,
     "flaky": 0
   }
 }
